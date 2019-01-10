@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portland</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/checkbox-style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <div class="container container--row">
+      <div class="container-col container-col--20 container-col-left">
+        <div class="header__menu">
+          <img src="images/ic_menu.png" alt="">
+        </div>
+        <div class="header__logo">
+          <img src="images/img_logo.png" alt="">
+        </div>
+      </div>
+      <div class="container-col container-col--60 container-col--center">
+        <ul class="header-nav">
+          <li class="header-nav__item">
+            <a href="#">Home</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#">Devices</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#">Delivery & Payment</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#">Guarantee</a>
+          </li>
+          <li class="header-nav__item">
+            <a href="#">About Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="container-col container-col--20 container-col--right">
+        <div class="header-cart">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="header-cart__text">CART</span>
+          <span class="header-cart__number">0</span>
+        </div>
+        <button class="header__sign">SIGN IN</button>
+      </div>
+    </div>
+  </div><!-- .header -->
+  <div class="sub-menu">
+    <div class="container container--row">
+      <ul class="sub-menu-links">
+        <li class="sub-menu-links__item">
+          <a href="#">TOP SALES</a>
+        </li>
+        <li class="sub-menu-links__item">
+          <a href="#">BRAND FOCUS</a>
+        </li>
+        <li class="sub-menu-links__item sub-menu-links__item--active">
+          <a href="#">HI-TECH</a>
+        </li>
+        <li class="sub-menu-links__item">
+          <a href="#">BEST SELLERS</a>
+        </li>
+        <li class="sub-menu-links__item">
+          <a href="#">PROJECTS</a>
+        </li>
+      </ul>
+      <div class="sub-menu-search">
+        <a href="#">SUPPORT</a>
+        <div class="sub-menu-search__input">
+          <!-- <i class="fas fa-search"></i> -->
+          <img src="images/ic_search.png" alt="ic_search">
+          <input type="text" placeholder="I'm looking for ..."/>
+        </div>
+      </div>
+    </div><!-- .container -->
+  </div>
+  <div class="main">
+    <div class="banner">
+      <img class="banner-image" src="images/img_banner.png" alt="">
+      <!-- <div class="container">
+        <div class="banner-slider">
+          <div class="banner-slider-title">
+            <h1 class="banner-slider-title">iPhone 6 32Gb</h1>
+            <h1 class="banner-slider-title banner-slider-title--second">BLACK</h1>
+          </div>
+          <button class="banner-slider-button">BUY NOW</button>
+        </div>
+      </div> -->
+    </div><!-- .banner -->
+    <div class="container container--main">
+      <div class="sort">
+        <div class="sort-by">
+          <span class="sort-by__text">SORT BY:</span>
+          <label class="sort-by-label">
+            <select class="sort-by-label__select">
+              <option value="">BEST MATCH</option>
+            </select>
+            <i class="fas fa-angle-down"></i>
+          </label>
+        </div><!-- .sort-by -->
+        <div class="sort-mid">
+          <div class="sort-mid-keyword">
+            <span class="sort-mid__text">KEYWORDS</span>
+            <input class="sort-mid__input sort-mid__input--long" type="text" placeholder="TABLET">
+          </div>
+          <div class="sort-mid-price">
+            <span class="sort-mid__text">PRICE</span>
+            <input class="sort-mid__input" type="number" placeholder="">
+            <span> - </span>
+            <input class="sort-mid__input" type="number" placeholder="">
+          </div>
+          <div class="sort-mid-freeship">
+            <label class="wrapper">Free Shipping
+              <input type="checkbox" checked="checked">
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </div><!-- .sort-mid -->
+        <div class="sort-ship">
+          <span class="sort-ship__text">SHIP TP:</span>
+          <label class="sort-ship-label">
+            <select class="sort-ship-label__select test">
+              <option value="">USA</option>
+            </select>
+            <i class="fas fa-angle-down"></i>
+          </label>
+        </div><!-- .sort-ship -->
+      </div>
+      <div class="container--row container--margin-top">
+        <div class="filter">
+          <div class="filter-menu">
+            <ul class="filter-menu-parent">
+              <li>
+                <div class="filter-menu-parent-item">
+                  <span>Top Sales</span>
+                  <i class="fas fa-angle-right"></i>
+                </div>
+              </li>
+              <li>
+                <div class="filter-menu-parent-item">
+                  <span>Brand Focus</span>
+                  <i class="fas fa-angle-right"></i>
+                </div>
+              </li>
+              <li>
+                <div class="filter-menu-parent-item">
+                  <span>Hi-Tech</span>
+                  <i class="fas fa-angle-right"></i>
+                </div>
+              </li>
+              <li>
+                <div class="filter-menu-parent-item">
+                  <span>Home</span>
+                  <i class="fas fa-angle-right"></i>
+                </div>
+              </li>
+              <li>
+                <div class="filter-menu-parent-item filter-menu-parent-item--no-border">
+                  <span>Sale</span>
+                  <i class="fas fa-angle-right"></i>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- .filter-menu -->
+          <div class="filter-available">
+            <p class="filter-available__text">AVAILABLE</p>
+            <div class="filter-available-group">
+              <div class="filter-available-group-item">
+                <label class="filter-available-group-item__label">
+                  <input type="radio">
+                  <span>In Store</span>
+                </label>
+                <span class="filter-available-group-item__quantity">45</span>
+              </div><!-- .filter-available-group-item -->
+              <div class="filter-available-group-item">
+                <label class="filter-available-group-item__label">
+                  <input type="radio">
+                  <span>In Online Shop</span>
+                </label>
+                <span class="filter-available-group-item__quantity">12</span>
+              </div><!-- .filter-available-group-item -->
+            </div><!-- .filter-available-group -->
+          </div><!-- .filter-available -->
+
+          <div class="filter-brand">
+            <div class="filter-brand-head">
+              <p class="filter-brand-head__text">BRAND</p>
+              <span>ALL</span>
+            </div>
+            <div class="filter-available-group">
+              <div class="filter-brand-group-item">
+                <label class="filter-brand-group-item__label">
+                  <input type="checkbox">
+                  <span>Apple</span>
+                </label>
+                <span class="filter-brand-group-item__quantity">32</span>
+              </div><!-- .filter-available-group-item -->
+              <div class="filter-brand-group-item">
+                <label class="filter-brand-group-item__label">
+                  <input type="checkbox">
+                  <span>JBL</span>
+                </label>
+                <span class="filter-brand-group-item__quantity">14</span>
+              </div><!-- .filter-brand-group-item -->
+              <div class="filter-brand-group-item">
+                <label class="filter-brand-group-item__label">
+                  <input type="checkbox">
+                  <span>Bose</span>
+                </label>
+                <span class="filter-brand-group-item__quantity">3</span>
+              </div><!-- .filter-available-group-item -->
+              <div class="filter-brand-group-item">
+                <label class="filter-brand-group-item__label">
+                  <input type="checkbox">
+                  <span>Nest</span>
+                </label>
+                <span class="filter-brand-group-item__quantity">5</span>
+              </div><!-- .filter-available-group-item -->
+            </div><!-- .filter-brand-group -->
+          </div><!-- .filter-brand -->
+
+          <div class="filter-condition">
+            <div class="filter-condition-head">
+              <p class="filter-condition-head__text">CONDITION</p>
+              <span>SEE ALL</span>
+            </div>
+            <div class="filter-condition-group">
+              <div class="filter-condition-group-item">
+                <label class="filter-condition-group-item__label">
+                  <input type="checkbox">
+                  <span>News</span>
+                </label>
+              </div><!-- .filter-condition-group-item -->
+              <div class="filter-condition-group-item">
+                <label class="filter-condition-group-item__label">
+                  <input type="checkbox">
+                  <span>Manufacturer Refurbished</span>
+                </label>
+              </div><!-- .filter-condition-group-item -->
+              <div class="filter-condition-group-item">
+                <label class="filter-condition-group-item__label">
+                  <input type="checkbox">
+                  <span>Used</span>
+                </label>
+              </div><!-- .filter-condition-group-item -->
+              <div class="filter-condition-group-item">
+                <label class="filter-condition-group-item__label">
+                  <input type="checkbox">
+                  <span>Forpart or Not working</span>
+                </label>
+              </div><!-- .filter-condition-group-item -->
+            </div><!-- .filter-condition-group -->
+          </div><!-- .filter-condition -->
+        </div><!-- .filter -->
+        <div class="products">
+          <div class="product-small-thumb">
+            <div class="product-small-thumb__image">
+              <img src="images/img_product_3.png" alt="">
+            </div>
+            <div class="product-small-thumb-detail">
+              <h3 class="product-small-thumb-detail__name">Apple Watch S3</h3>
+              <p class="product-small-thumb-detail__color">BLACK</p>
+              <span class="product-small-thumb-detail__price">199$</span>
+            </div>
+          </div><!-- .product-small-thumb -->
+          <div class="product-small-thumb">
+            <div class="product-small-thumb__image">
+              <img src="images/img_product_3.png" alt="">
+            </div>
+            <div class="product-small-thumb-detail">
+              <h3 class="product-small-thumb-detail__name">Apple Watch S3</h3>
+              <p class="product-small-thumb-detail__color">BLACK</p>
+              <span class="product-small-thumb-detail__price">199$</span>
+            </div>
+          </div><!-- .product-small-thumb -->
+          <div class="product-small-thumb">
+            <div class="product-small-thumb__image">
+              <img src="images/img_product_3.png" alt="">
+            </div>
+            <div class="product-small-thumb-detail">
+              <h3 class="product-small-thumb-detail__name">Apple Watch S3</h3>
+              <p class="product-small-thumb-detail__color">BLACK</p>
+              <span class="product-small-thumb-detail__price">199$</span>
+            </div>
+          </div><!-- .product-small-thumb -->
+          <div class="product-small-thumb">
+            <div class="product-small-thumb__image">
+              <img src="images/img_product_3.png" alt="">
+            </div>
+            <div class="product-small-thumb-detail">
+              <h3 class="product-small-thumb-detail__name">Apple Watch S3</h3>
+              <p class="product-small-thumb-detail__color">BLACK</p>
+              <span class="product-small-thumb-detail__price">199$</span>
+            </div>
+          </div><!-- .product-small-thumb -->
+          <div class="product-long-thumb test">
+
+          </div><!-- .product-long-thumb -->
+          <div class="product-small-thumb test"></div>
+          <div class="product-small-thumb test"></div>
+          <div class="product-small-thumb test"></div>
+          <div class="product-small-thumb test"></div>
+          <div class="product-small-thumb test"></div>
+          <div class="product-small-thumb test"></div>
+        </div>
+      </div>
+    </div>
+  </div><!-- .main -->
+  <div class="footer"></div><!-- .footer -->
+</body>
+</html>
