@@ -866,12 +866,12 @@ body {
 }
 
 .best-sellers__title {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: bold;
   width: 100%;
   text-align: center;
   color: #343e5c;
-  margin: 25px 0 25px;
+  margin: 5px 0 25px;
   position: absolute;
   top: 15px;
 }
