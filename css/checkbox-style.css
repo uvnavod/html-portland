@@ -63,8 +63,8 @@
 
 /* Style the checkmark/indicator */
 .wrapper .checkmark:after {
-  left: 7px;
-  top: 4px;
+  left: 6px;
+  top: 3px;
   width: 2px;
   height: 7px;
   border: solid white;

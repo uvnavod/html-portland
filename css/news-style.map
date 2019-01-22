@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/news-style.css",
+	"sources": [
+		"../scss/news-style.scss"
+	],
+	"sourcesContent": [
+		"@font-face {\r\n  font-family: \"Montserrat-Regular\";\r\n  src: url(../fonts/Montserrat-Regular.otf);\r\n}\r\n\r\n$grey: #e4e5e7;\r\n$light-grey: #b9bed1;\r\n$dark: #222328;\r\n$dark-text: #1c1e23;\r\n$blue-bg: #2754eb;\r\n$blue-dot: #00deea;\r\n$dark-blue: #343e5c;\r\n$green: #00e2aa;\r\n\r\nbody, div, img, p, ul, h1, h2, h3, span {\r\n  padding: 0;\r\n  margin: 0;\r\n}\r\n\r\nbody {\r\n  font-family: 'Open Sans', sans-serif;\r\n}\r\n\r\n.container {\r\n  width: 1170px;\r\n  margin: 0 auto;\r\n  &-col {\r\n    display: flex;\r\n    align-items: center;\r\n    &--20 {\r\n      width: 20%;\r\n    }\r\n    &--60 {\r\n      width: 60%;\r\n    }\r\n    &--30 {\r\n      width: 30%;\r\n    }\r\n    &--right {\r\n      justify-content: flex-end;\r\n    }\r\n    &--left {\r\n      justify-content: flex-start;\r\n    }\r\n    &--center {\r\n      justify-content: center;\r\n    }\r\n    &--margin-top {\r\n      margin-top: 30px;\r\n    }\r\n  }\r\n  &--main {\r\n    padding: 50px 0 50px;\r\n  }\r\n  &--row {\r\n    display: flex;\r\n  }\r\n}// .conatainer\r\n\r\n.main {\r\n  /* width: 100%; */\r\n  background: #e4e5e7;\r\n}\r\n"
+	],
+	"mappings": "AAAA,UAAU;EACR,WAAW,EAAE,oBAAqB;EAClC,GAAG,EAAqC,oCAAC;;;;AAY3C,AAAA,IAAI,EAAE,AAAA,GAAG,EAAE,AAAA,GAAG,EAAE,AAAA,CAAC,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,EAAE,EAAE,AAAA,IAAI,CAAC;EACtC,OAAO,EAAE,CAAE;EACX,MAAM,EAAE,CAAE;CACX;;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,uBAAwB;CACtC;;;AAED,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,MAAO;EACd,MAAM,EAAE,MAAO;CAgChB;;;AAlCD,AAAA,cAAU,CAGF;EACJ,OAAO,EAAE,IAAK;EACd,WAAW,EAAE,MAAO;CAsBrB;;;AA3BH,AAAA,kBAAU,CAMA;EACJ,KAAK,EAAE,GAAI;CACZ;;;AARL,AAAA,kBAAU,CASA;EACJ,KAAK,EAAE,GAAI;CACZ;;;AAXL,AAAA,kBAAU,CAYA;EACJ,KAAK,EAAE,GAAI;CACZ;;;AAdL,AAAA,qBAAU,CAeG;EACP,eAAe,EAAE,QAAS;CAC3B;;;AAjBL,AAAA,oBAAU,CAkBE;EACN,eAAe,EAAE,UAAW;CAC7B;;;AApBL,AAAA,sBAAU,CAqBI;EACR,eAAe,EAAE,MAAO;CACzB;;;AAvBL,AAAA,0BAAU,CAwBQ;EACZ,UAAU,EAAE,IAAK;CAClB;;;AA1BL,AAAA,gBAAU,CA4BA;EACN,OAAO,EAAE,WAAY;CACtB;;;AA9BH,AAAA,eAAU,CA+BD;EACL,OAAO,EAAE,IAAK;CACf;;;AAGH,AAAA,KAAK,CAAC;EACJ,kBAAkB;EAClB,UAAU,EAAE,OAAQ;CACrB",
+	"names": []
+}
