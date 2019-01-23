@@ -45,11 +45,11 @@ function showDots(n) {
 }
 
 function showSlide(n) {
-  var slides = document.getElementsByClassName("slide-list__item");
+  var slides = document.getElementsByClassName("slide-list-item");
   for (var i=0; i < slides.length; i++) {
-    slides[i].classList.remove("slide-list__item--active");
+    slides[i].classList.remove("slide-list-item--active");
   }
-  slides[n-1].classList.add("slide-list__item--active");
+  slides[n-1].classList.add("slide-list-item--active");
 }
 
 var pageIndex = 1;

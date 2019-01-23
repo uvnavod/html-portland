@@ -13,6 +13,16 @@
   src: url(../fonts/Montserrat-Black.otf);
 }
 
+@font-face {
+  font-family: "CrimsonText-Italic";
+  src: url(../fonts/CrimsonText-Italic.ttf);
+}
+
+@font-face {
+  font-family: "CrimsonText-Roman";
+  src: url(../fonts/CrimsonText-Roman.ttf);
+}
+
 $grey: #e4e5e7;
 $grey-bg: #e3e8f0;
 $grey-text: #a1a8bd;
@@ -244,10 +254,10 @@ body {
       transition-duration: 0.5s;
     }
     &--next {
-      right: 165px;
+      right: 50px;
     }
     &--previous {
-      left: 165px;
+      left: 50px;
     }
     &--hidden {
       display: none;
@@ -275,9 +285,41 @@ body {
   } // -dots
   &-list {
     height: 100%;
-    &__item {
+    &-item {
       display: none;
-      height: 100%;
+      // height: 100%;
+      &__detail {
+        position: absolute;
+        bottom: 100px;
+        left: 100px;
+        h1 {
+          font-family: Montserrat-Black;
+          font-size: 42px;
+          color: #fff;
+        }
+        p {
+          width: 470px;
+          margin-top: 20px;
+          font-family: CrimsonText-Roman;
+          // font-size: 16px;
+          font-size: 18.3px;
+          color: #fff;
+        }
+        button {
+          width: 165px;
+          height: 42px;
+          margin-top: 62px;
+          border-radius: 21px;
+          box-sizing: border-box;
+          border: none;
+          color: #fff;
+          font-size: 11px;
+          text-transform: uppercase;
+          font-weight: bold;
+          background: #2754eb;
+
+        }
+      }
       &--active {
         display: block;
       }
@@ -453,6 +495,7 @@ body {
               text-decoration: none;
               color: $grey-text;
               font-size: 11px;
+              text-transform: uppercase;
             }
           }
         } // -child
@@ -547,6 +590,7 @@ body {
         color: #343e5c;
         font-weight: bold;
         font-size: 13px;
+        text-transform: uppercase;
       }
       span {
         position: absolute;
@@ -560,6 +604,133 @@ body {
       }
     }
   } // .filter
+
+  .product {
+    width: 870px;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    &-item {
+      width: 270px;
+      height: 380px;
+      position: relative;
+      border-radius: 4px;
+      background: #fff;
+      margin-right: auto;
+      // margin-bottom: 30px;
+      &__image {
+        height: 100%;
+        width: 100%;
+        position: relative;
+      }
+      &-detail {
+        position: absolute;
+        top: 260px;
+        width: 80%;
+        left: 50%;
+        text-align: center;
+        transform: translateX(-50%);
+        &__name {
+          font-size: 16px;
+          font-weight: bold;
+          color: #1c1e23;
+          margin: 0 0 11px;
+        }
+        &__color {
+          font-size: 12px;
+          font-weight: bold;
+          color: #b8bfd3;
+          margin: 0 0 13px;
+        }
+        &__price {
+          font-size: 14px;
+          font-weight: bold;
+          color: #343e5c;
+        }
+      } // -detail
+      &--long {
+        width: 570px;
+        .product-item {
+          position: relative;
+          &__image {
+            // width: 100%;
+            height: 305px;
+            img {
+              width: 100%;
+              height: 100%;
+              border-radius: 4px 4px 0 0;
+            }
+          }
+
+          &__price {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            border-radius: 4px;
+            background: black;
+            width: 65px;
+            height: 24px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+          }
+          &-detail {
+            width: 100%;
+            top: 0;
+            left: 0;
+            transform: translate(0, 50%);
+            height: 75px;
+            &__name {
+              position: absolute;
+              bottom: 45px;
+              left: 25px;
+              font-size: 16px;
+              font-weight: bold;
+              color: #222328;
+            }
+            &__color {
+              position: absolute;
+              bottom: 20px;
+              left: 25px;
+              color: grey;
+              font-size: 12px;
+              font-weight: bold;
+              color: #b8bfd3;
+            }
+            &__buy {
+              position: absolute;
+              width: 225px;
+              height: 30px;
+              right: 20px;
+              bottom: 20px;
+              border: 2px solid #f0f2f7;
+              border-radius: 15px;
+              display: flex;
+              color: #343e5c;
+              button {
+                width: 50%;
+                background: transparent;
+                border: none;
+                color: #343e5c;
+                font-weight: bold;
+                cursor: pointer;
+                &:focus {
+                  outline: none;
+                }
+              }
+            }
+          }
+        } // product-item
+      } // --long
+      &--no-margin {
+        margin-right: 0;
+      }
+    } // -item
+  } // .product
 
   .paging {
     width: 100%;
@@ -619,6 +790,11 @@ body {
      height: 400px;
      border-radius: 4px;
      background: #fff;
+     h3 {
+       color: $dark-blue;
+       text-transform: uppercase;
+
+     }
   }
 } //.main
 .feedback {
@@ -629,6 +805,7 @@ body {
   padding: 65px 0 90px;
   &__title {
     width: 100%;
+    font-family: Montserrat-Black;
     font-size: 32px;
     color: #222328;
     font-weight: bold;
@@ -637,6 +814,7 @@ body {
   }
   &__title-sub {
     width: 100%;
+    font-family: CrimsonText-Italic;
     text-align: center;
     font-size: 16px;
     font-style: italic;
@@ -656,13 +834,13 @@ body {
           font-size: 14px;
           font-weight: bold;
           color: #343e5c;
-          font-style: italic;
           left: 60px;
         }
         &__job {
           color: #b9bed1;
-          font-size: 14px;
-          font-style: italic;
+          // font-size: 14px;
+          font-size: 16px;
+          font-family: CrimsonText-Italic;
           position: absolute;
           left: 60px;
           top: 25px;
@@ -678,8 +856,9 @@ body {
         }
       } // -customer
       &__content {
-        font-size: 16px;
-        font-style: italic;
+        // font-size: 16px;
+        font-size: 18.5px;
+        font-family: CrimsonText-Roman;
         margin-top: 65px;
       }
     } // -comment
@@ -751,7 +930,9 @@ body {
       top: 50%;
       transform: translateY(-50%);
       color: #7f7f81;
-      font-size: 14px;
+      font-family: CrimsonText-Italic;
+      // font-size: 14px;
+      font-size: 16.3px;
       text-align: left;
       font-style: italic;
     }

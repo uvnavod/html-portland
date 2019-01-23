@@ -80,23 +80,41 @@
     </div><!-- .container -->
   </div><!-- .sub-menu -->
   <div class="slide">
-    <div id="arrow_previous" class="slide__arrow slide__arrow--previous slide__arrow--hidden"
-         onclick="plusSlide(-1);">
-      <img src="images/ic_previous.png" alt="">
-    </div>
-    <div id="arrow_next" class="slide__arrow slide__arrow--next"
-         onclick="plusSlide(1);">
-      <img src="images/ic_next.png" alt="">
+    <div class="container container--relative" style="height: 100%;z-index: 1;">
+      <div id="arrow_previous" class="slide__arrow slide__arrow--previous slide__arrow--hidden"
+           onclick="plusSlide(-1);">
+        <img src="images/ic_previous.png" alt="">
+      </div>
+      <div id="arrow_next" class="slide__arrow slide__arrow--next"
+           onclick="plusSlide(1);">
+        <img src="images/ic_next.png" alt="">
+      </div><!-- .container -->
     </div>
     <ul class="slide-list">
-      <li class="slide-list__item slide-list__item--active">
+      <li class="slide-list-item slide-list-item--active">
         <img src="images/img_slide.png" alt="slide">
+        <div class="container container--relative">
+          <div class="slide-list-item__detail">
+            <h1>Iphone 6 32Gb</h1>
+            <h1>Black</h1>
+            <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground.</p>
+            <button>BUY NOW</button>
+          </div>
+        </div>
       </li>
-      <li class="slide-list__item slide-list__item--bg-grey">
-        <img src="images/img_.png" alt="slide2">
+      <li class="slide-list-item slide-list-item--bg-grey">
+        <img src="images/img_slide_2.png" alt="slide2">
+        <div class="container container--relative">
+          <div class="slide-list-item__detail">
+            <h1>Iphone 8 64Gb</h1>
+            <h1>Red</h1>
+            <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground.</p>
+            <button>BUY NOW</button>
+          </div>
+        </div>
       </li>
-      <li class="slide-list__item slide-list__item--bg-green">
-        <img src="images/img_.png" alt="slide3">
+      <li class="slide-list-item slide-list-item--bg-green">
+        <img src="images/img_slide.png" alt="slide3">
       </li>
     </ul><!-- .slide-list -->
     <ul class="slide-dots">
@@ -154,7 +172,7 @@
         </div><!-- .sort-ship -->
       </div><!-- .sort -->
     </div><!-- .container -->
-    <div class="container">
+    <div class="container container--row">
       <div class="filter">
         <ul class="filter-menu">
           <li class="filter-menu-item filter-menu-item--active">
@@ -312,6 +330,67 @@
           </div><!-- .filter-check-group -->
         </div><!-- .filter-check -->
       </div><!-- .filter -->
+      <div class="product">
+        <div class="product-item">
+          <div class="product-item__image">
+            <img src="images/img_thumb_1.png" alt="">
+          </div>
+          <div class="product-item-detail">
+            <h3 class="product-item-detail__name">Apple TV 32Gb</h3>
+            <p class="product-item-detail__color">BLACK</p>
+            <span class="product-item-detail__price">49.99$</span>
+          </div>
+        </div><!-- .product-small-thumb -->
+
+        <div class="product-item">
+          <div class="product-item__image">
+            <img src="images/img_thumb_1.png" alt="">
+          </div>
+          <div class="product-item-detail">
+            <h3 class="product-item-detail__name">Apple TV 32Gb</h3>
+            <p class="product-item-detail__color">BLACK</p>
+            <span class="product-item-detail__price">49.99$</span>
+          </div>
+        </div><!-- .product-small-thumb -->
+
+        <div class="product-item product-item--no-margin">
+          <div class="product-item__image">
+            <img src="images/img_thumb_1.png" alt="">
+          </div>
+          <div class="product-item-detail">
+            <h3 class="product-item-detail__name">Apple TV 32Gb</h3>
+            <p class="product-item-detail__color">BLACK</p>
+            <span class="product-item-detail__price">49.99$</span>
+          </div>
+        </div><!-- .product-small-thumb -->
+
+        <div class="product-item product-item--long">
+          <div class="product-item__image">
+            <img src="images/img_long_thumb.png" alt="">
+            <span class="product-item__price">39.99$</span>
+          </div>
+          <div class="product-item-detail">
+            <p class="product-item-detail__name">JBL Change 2+</p>
+            <p class="product-item-detail__color">BLACK</p>
+            <div class="product-item-detail__buy">
+              <button>16gb</button>
+              <button>BUY</button>
+            </div>
+          </div>
+        </div><!-- .product-long-thumb -->
+
+        <div class="product-item product-item--no-margin">
+          <div class="product-item__image">
+            <img src="images/img_thumb_1.png" alt="">
+          </div>
+          <div class="product-item-detail">
+            <h3 class="product-item-detail__name">Apple TV 32Gb</h3>
+            <p class="product-item-detail__color">BLACK</p>
+            <span class="product-item-detail__price">49.99$</span>
+          </div>
+        </div><!-- .product-small-thumb -->
+
+      </div><!-- .product -->
     </div><!-- .container -->
 
     <div class="container">
@@ -332,7 +411,9 @@
         </ul>
       </div><!-- .paging -->
 
-      <div class="best-sellers"></div>
+      <div class="best-sellers">
+        <h3>best seller</h3>
+      </div>
     </div><!-- .container -->
   </div><!-- .main -->
 
@@ -347,7 +428,7 @@
           <p class="feedback-box-comment-customer__job">UX Express</p>
         </div>
         <p class="feedback-box-comment__content">
-          <span>This I have produced as a scantling of Jack’s great eloquence and the force of his reasoning upon such abstruse matters.</span>
+          <span>This I have produced as a scantling of Jack’s great eloquence and the force of his reasoning upon such abstruse matters.</span>
         </p>
       </div><!-- .feedback-box-comment -->
       <div class="feedback-box-comment">
@@ -367,7 +448,7 @@
           <p class="feedback-box-comment-customer__job">Product Manager</p>
         </div>
         <p class="feedback-box-comment__content">
-          <span>This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of that before!' she said.</span>
+          <span>This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of that before!' she said.</span>
         </p>
       </div><!-- .feedback-box-comment -->
     </div><!-- .feedback-box -->
@@ -411,8 +492,8 @@
       </div><!-- .footer-menu -->
       <div class="footer-sub">
         <div class="footer-sub__quote">
-          <p>She gave my mother such a turn, that Iii have always been convinced I am indebted to</p>
-          <p>Miss Betsey for having been born on a Friday.</p>
+          <p>She gave my mother such a turn, that Iii have always been convinced I am indebted to Miss</p>
+          <p>Betsey for having been born on a Friday.</p>
         </div>
         <ul class="footer-sub-nav">
           <li class="footer-sub-nav__item">
