@@ -698,6 +698,7 @@ body {
   border-radius: 4px;
   background: #fff;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 
 .main .product-item__image {
@@ -727,6 +728,7 @@ body {
   font-weight: bold;
   color: #b8bfd3;
   margin: 0 0 13px;
+  text-transform: uppercase;
 }
 
 .main .product-item-detail__price {
@@ -820,6 +822,18 @@ body {
 
 .main .product-item--long .product-item-detail__buy button:focus {
   outline: none;
+}
+
+.main .product-item--other .product-item-detail {
+  top: 40px;
+}
+
+.main .product-item--other .product-item-detail__color {
+  display: none;
+}
+
+.main .product-item--other .product-item-detail__price {
+  color: #6d6b68;
 }
 
 .main .product-item--no-margin {

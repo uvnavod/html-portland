@@ -617,7 +617,7 @@ body {
       border-radius: 4px;
       background: #fff;
       margin-right: auto;
-      // margin-bottom: 30px;
+      margin-bottom: 30px;
       &__image {
         height: 100%;
         width: 100%;
@@ -641,6 +641,7 @@ body {
           font-weight: bold;
           color: #b8bfd3;
           margin: 0 0 13px;
+          text-transform: uppercase;
         }
         &__price {
           font-size: 14px;
@@ -723,9 +724,22 @@ body {
                 }
               }
             }
-          }
+          } // -detail
         } // product-item
       } // --long
+      &--other {
+        .product-item {
+          &-detail {
+            top: 40px;
+            &__color {
+              display: none;
+            }
+            &__price {
+              color: #6d6b68;
+            }
+          } // -detail
+        } // .product-item
+      } // .product-item--other
       &--no-margin {
         margin-right: 0;
       }
