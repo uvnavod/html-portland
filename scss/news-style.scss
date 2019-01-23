@@ -35,7 +35,7 @@ $dark-blue: #343e5c;
 $green: #00e2aa;
 $border-color: #f0f2f7;
 
-body, div, img, p, ul, h1, h2, h3, span {
+body, div, img, p, ul, h1, h2, h3, h4, h5, span {
   padding: 0;
   margin: 0;
 }
@@ -317,7 +317,7 @@ body {
           text-transform: uppercase;
           font-weight: bold;
           background: #2754eb;
-
+          cursor: pointer;
         }
       }
       &--active {
@@ -662,7 +662,6 @@ body {
               border-radius: 4px 4px 0 0;
             }
           }
-
           &__price {
             position: absolute;
             top: 15px;
@@ -679,15 +678,11 @@ body {
             font-weight: bold;
             text-align: center;
           }
-          &-detail {
-            width: 100%;
-            top: 0;
-            left: 0;
-            transform: translate(0, 50%);
-            height: 75px;
+          // &-detail {
+          //   position: absolute;
             &__name {
               position: absolute;
-              bottom: 45px;
+              bottom: 0;
               left: 25px;
               font-size: 16px;
               font-weight: bold;
@@ -695,7 +690,7 @@ body {
             }
             &__color {
               position: absolute;
-              bottom: 20px;
+              bottom: 0;
               left: 25px;
               color: grey;
               font-size: 12px;
@@ -723,8 +718,8 @@ body {
                   outline: none;
                 }
               }
-            }
-          } // -detail
+            } // -buy
+          // } // -detail
         } // product-item
       } // --long
       &--other {
@@ -800,16 +795,72 @@ body {
   } // .paging
 
   .best-sellers {
+    width: 100%;
+    height: 400px;
+    border-radius: 4px;
+    background: #fff;
+    h3 {
+     color: $dark-blue;
      width: 100%;
-     height: 400px;
-     border-radius: 4px;
-     background: #fff;
-     h3 {
-       color: $dark-blue;
-       text-transform: uppercase;
-
-     }
-  }
+     font-size: 11px;
+     // font-weight: bold;
+     font-family: Montserrat-Medium;
+     text-align: center;
+     padding: 20px 0;
+     text-transform: uppercase;
+    }
+    &-list { //HERE
+      width: 100%;
+      height: 345px;
+      list-style-type: none;
+      display: flex;
+      border-top: 1px solid $border-color;
+      &-item {
+        width: 25%;
+        border-right: 1px solid $border-color;
+        position: relative;
+        img {
+          position: absolute;
+          top: 33%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        &-detail {
+          position: absolute;
+          top: 230px;
+          width: 100%;
+          text-align: center;
+          &__name {
+            font-size: 16px;
+            color: $dark-blue;
+            width: 100%;
+            margin-bottom: 10px;
+          }
+          &__color {
+            font-size: 11px;
+            text-transform: uppercase;
+            color: $grey-text;
+            margin-bottom: 20px;
+            font-weight: bold;
+          }
+          &__price {
+            font-size: 14px;
+            font-weight: bold;
+            strike {
+              color: #b8bfd3;
+              margin-right: 25px;
+            }
+            span {
+              color: $dark-blue;
+            }
+          }
+        }
+        &:last-child {
+          border-right: none;
+        }
+      } // -item
+    } // -list
+  } // .best-sellers
 } //.main
 .feedback {
   width: 100%;

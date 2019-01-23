@@ -23,37 +23,45 @@
   src: url(../fonts/CrimsonText-Roman.ttf);
 }
 
-body, div, img, p, ul, h1, h2, h3, span {
+/* line 38, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
+body, div, img, p, ul, h1, h2, h3, h4, h5, span {
   padding: 0;
   margin: 0;
 }
 
+/* line 43, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* line 47, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .container {
   width: 1170px;
   margin: 0 auto;
 }
 
+/* line 50, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .container-col {
   display: flex;
   align-items: center;
 }
 
+/* line 53, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .container-col--margin-top {
   margin-top: 30px;
 }
 
+/* line 57, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .container--relative {
   position: relative;
 }
 
+/* line 60, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .container--row {
   display: flex;
 }
 
+/* line 65, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .header {
   width: 100%;
   height: 90px;
@@ -64,10 +72,12 @@ body {
   justify-content: center;
 }
 
+/* line 73, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .header-center {
   margin: 0 auto;
 }
 
+/* line 76, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .header-nav {
   height: 100%;
   list-style-type: none;
@@ -77,6 +87,7 @@ body {
   font-weight: 600;
 }
 
+/* line 84, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .header-nav__item a {
   margin: 15px;
   text-decoration: none;
@@ -84,6 +95,7 @@ body {
   color: inherit;
 }
 
+/* line 92, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .header-left {
   height: 100%;
   position: absolute;
@@ -94,6 +106,7 @@ body {
   align-items: center;
 }
 
+/* line 101, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .header__menu {
   height: 100%;
   display: flex;
@@ -102,15 +115,18 @@ body {
   border-right: 1px solid #f0f2f7;
 }
 
+/* line 107, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .header__menu img {
   cursor: pointer;
 }
 
+/* line 111, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .header__logo {
   margin-left: 30px;
   cursor: pointer;
 }
 
+/* line 115, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .header-right {
   position: absolute;
   right: 0;
@@ -120,6 +136,7 @@ body {
   align-items: center;
 }
 
+/* line 123, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .header__sign {
   height: 28px;
   width: 80px;
@@ -131,14 +148,17 @@ body {
   cursor: pointer;
 }
 
+/* line 132, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .header__sign:focus {
   outline: none;
 }
 
+/* line 135, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .header__sign:active {
   background: #e3e8f0;
 }
 
+/* line 139, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .header-cart {
   font-size: 12px;
   display: flex;
@@ -147,11 +167,13 @@ body {
   color: #343e5c;
 }
 
+/* line 145, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .header-cart__text {
   margin-left: 7px;
   font-weight: bold;
 }
 
+/* line 149, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .header-cart__number {
   width: 24px;
   height: 24px;
@@ -166,10 +188,12 @@ body {
   background: #e3e8f0;
 }
 
+/* line 162, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .header-cart i {
   cursor: pointer;
 }
 
+/* line 168, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .sub-menu {
   height: 56px;
   display: flex;
@@ -177,6 +201,7 @@ body {
   align-items: center;
 }
 
+/* line 173, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .sub-menu-links {
   list-style-type: none;
   display: flex;
@@ -184,15 +209,18 @@ body {
   justify-content: flex-start;
 }
 
+/* line 178, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .sub-menu-links__item {
   margin-right: 30px;
   color: #b9bed1;
 }
 
+/* line 181, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .sub-menu-links__item--active {
   color: #343e5c;
 }
 
+/* line 184, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .sub-menu-links__item a {
   text-decoration: none;
   color: inherit;
@@ -200,10 +228,12 @@ body {
   text-transform: uppercase;
 }
 
+/* line 189, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .sub-menu-links__item a:hover {
   color: #343e5c;
 }
 
+/* line 195, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .sub-menu-search {
   position: absolute;
   right: 0;
@@ -212,6 +242,7 @@ body {
   justify-content: flex-end;
 }
 
+/* line 201, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .sub-menu-search a {
   font-size: 11px;
   text-decoration: none;
@@ -220,18 +251,22 @@ body {
   text-transform: uppercase;
 }
 
+/* line 207, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .sub-menu-search a:hover {
   color: #343e5c;
 }
 
+/* line 211, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .sub-menu-search__input {
   margin-left: 50px;
 }
 
+/* line 213, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .sub-menu-search__input img {
   cursor: pointer;
 }
 
+/* line 216, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .sub-menu-search__input input {
   width: 150px;
   margin-left: 8px;
@@ -242,20 +277,24 @@ body {
   font-weight: bold;
 }
 
+/* line 224, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .sub-menu-search__input input::placeholder {
   color: #a1a8bd;
 }
 
+/* line 227, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .sub-menu-search__input input:focus {
   outline: none;
 }
 
+/* line 235, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide {
   width: 100%;
   height: 500px;
   position: relative;
 }
 
+/* line 239, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide__arrow {
   width: 40px;
   height: 40px;
@@ -271,23 +310,28 @@ body {
   z-index: 99;
 }
 
+/* line 252, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide__arrow:hover {
   border: 1px solid #fff;
   transition-duration: 0.5s;
 }
 
+/* line 256, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide__arrow--next {
   right: 50px;
 }
 
+/* line 259, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide__arrow--previous {
   left: 50px;
 }
 
+/* line 262, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide__arrow--hidden {
   display: none;
 }
 
+/* line 266, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide-dots {
   position: absolute;
   bottom: 30px;
@@ -298,40 +342,48 @@ body {
   z-index: 99;
 }
 
+/* line 274, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide-dots__item {
   margin-right: 7px;
   cursor: pointer;
 }
 
+/* line 277, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide-dots__item i {
   color: #fff;
   font-size: 8px;
 }
 
+/* line 281, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide-dots__item:last-child {
   margin-right: 0;
 }
 
+/* line 286, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide-list {
   height: 100%;
 }
 
+/* line 288, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide-list-item {
   display: none;
 }
 
+/* line 291, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide-list-item__detail {
   position: absolute;
   bottom: 100px;
   left: 100px;
 }
 
+/* line 295, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide-list-item__detail h1 {
   font-family: Montserrat-Black;
   font-size: 42px;
   color: #fff;
 }
 
+/* line 300, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide-list-item__detail p {
   width: 470px;
   margin-top: 20px;
@@ -340,6 +392,7 @@ body {
   color: #fff;
 }
 
+/* line 308, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide-list-item__detail button {
   width: 165px;
   height: 42px;
@@ -352,20 +405,25 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   background: #2754eb;
+  cursor: pointer;
 }
 
+/* line 323, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide-list-item--active {
   display: block;
 }
 
+/* line 326, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide-list-item--bg-green {
   background: green;
 }
 
+/* line 329, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide-list-item--bg-grey {
   background: grey;
 }
 
+/* line 332, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .slide-list-item img {
   position: absolute;
   top: 0;
@@ -374,12 +432,14 @@ body {
   height: 100%;
 }
 
+/* line 343, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main {
   width: 100%;
   padding: 50px 0;
   background: #e4e5e7;
 }
 
+/* line 347, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort {
   width: 100%;
   height: 55px;
@@ -393,6 +453,7 @@ body {
   margin-bottom: 30px;
 }
 
+/* line 358, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort-box {
   width: 245px;
   height: 100%;
@@ -401,10 +462,12 @@ body {
   box-sizing: border-box;
 }
 
+/* line 364, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort-box__text {
   margin-left: 20px;
 }
 
+/* line 367, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort-box-label {
   position: relative;
   height: 100%;
@@ -412,6 +475,7 @@ body {
   margin-left: 20px;
 }
 
+/* line 372, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort-box-label__select {
   width: 100%;
   height: 100%;
@@ -425,10 +489,12 @@ body {
   -o-appearance: none;
 }
 
+/* line 383, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort-box-label__select:focus {
   outline: none;
 }
 
+/* line 387, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort-box-label i {
   font-size: 14px;
   color: #c2c5ce;
@@ -438,20 +504,24 @@ body {
   transform: translateY(-50%);
 }
 
+/* line 396, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort-box--left {
   border-right: 2px solid #f2f2f2;
 }
 
+/* line 399, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort-box--right {
   width: 226px;
   border-radius: 0 4px 4px 0;
   border-left: 2px solid #f2f2f2;
 }
 
+/* line 403, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort-box--right .sort-box-label {
   margin-left: 20px;
 }
 
+/* line 408, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort-mid {
   width: 100%;
   height: 100%;
@@ -462,10 +532,12 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* line 416, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort-mid__text {
   margin-right: 12px;
 }
 
+/* line 419, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort-mid__input {
   height: 30px;
   border: 1px solid #e3e8f0;
@@ -478,23 +550,28 @@ body {
   box-sizing: border-box;
 }
 
+/* line 429, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort-mid__input:focus {
   outline: none;
 }
 
+/* line 432, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort-mid__input:placeholder {
   color: #b9bfd3;
   font-size: 13px;
 }
 
+/* line 436, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort-mid__input--long {
   width: 160px;
 }
 
+/* line 440, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort-mid-price {
   margin-left: 30px;
 }
 
+/* line 443, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .sort-mid-freeship {
   margin-left: 30px;
   display: flex;
@@ -503,11 +580,13 @@ body {
   font-size: 13px;
 }
 
+/* line 452, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter {
   width: 270px;
   border-radius: 4px;
 }
 
+/* line 455, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-menu {
   width: 270px;
   border-radius: 4px;
@@ -516,11 +595,13 @@ body {
   margin-bottom: 30px;
 }
 
+/* line 461, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-menu-item {
   min-height: 40px;
   height: 100%;
 }
 
+/* line 464, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-menu-item__parent {
   position: relative;
   height: 40px;
@@ -535,20 +616,24 @@ body {
   cursor: pointer;
 }
 
+/* line 476, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-menu-item__parent i {
   position: absolute;
   right: 20px;
 }
 
+/* line 481, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-menu-item__child {
   list-style-type: none;
   display: none;
 }
 
+/* line 484, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-menu-item__child--active {
   display: block;
 }
 
+/* line 487, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-menu-item__child li {
   height: 40px;
   background: #f0f2f7;
@@ -558,6 +643,7 @@ body {
   padding-left: 20px;
 }
 
+/* line 494, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-menu-item__child li a {
   text-decoration: none;
   color: #a1a8bd;
@@ -565,10 +651,12 @@ body {
   text-transform: uppercase;
 }
 
+/* line 503, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-menu-item:last-child .filter-menu-item__parent {
   border-bottom: none;
 }
 
+/* line 509, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-radio {
   width: 100%;
   border-radius: 4px 4px 0 0;
@@ -576,6 +664,7 @@ body {
   margin-top: 30px;
 }
 
+/* line 514, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-radio h3 {
   padding: 16px 20px;
   color: #343e5c;
@@ -584,27 +673,32 @@ body {
   border-bottom: 1px solid #f0f2f7;
 }
 
+/* line 521, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-radio-group {
   padding: 10px 0 10px 20px;
   /* padding-left: 20px; */
   border-bottom: 1px solid #f0f2f7;
 }
 
+/* line 525, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-radio-group-item {
   position: relative;
   margin: 8px 0;
 }
 
+/* line 528, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-radio-group-item__label {
   margin-bottom: 15px;
 }
 
+/* line 530, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-radio-group-item__label span {
   font-size: 13px;
   color: #343e5c;
   font-weight: bold;
 }
 
+/* line 536, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-radio-group-item__quantity {
   color: #c6ccdc;
   font-size: 11px;
@@ -615,32 +709,38 @@ body {
   transform: translateY(-50%);
 }
 
+/* line 548, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-check {
   width: 100%;
   border-radius: 0 0 4px 4px;
   background: #fff;
 }
 
+/* line 552, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-check-group {
   padding: 10px 0 10px 20px;
   border-bottom: 1px solid #f0f2f7;
 }
 
+/* line 555, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-check-group-item {
   position: relative;
   margin: 16px 0;
 }
 
+/* line 558, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-check-group-item__label {
   margin-bottom: 15px;
 }
 
+/* line 560, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-check-group-item__label span {
   font-size: 13px;
   color: #343e5c;
   font-weight: bold;
 }
 
+/* line 566, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-check-group-item__quantity {
   color: #c6ccdc;
   font-size: 11px;
@@ -651,20 +751,24 @@ body {
   transform: translateY(-50%);
 }
 
+/* line 577, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-check--brand {
   border-radius: 0 0 4px 4px;
   margin-bottom: 30px;
 }
 
+/* line 581, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter-check--condition {
   border-radius: 4px;
 }
 
+/* line 585, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter__head {
   position: relative;
   border-bottom: 1px solid #f0f2f7;
 }
 
+/* line 588, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter__head h3 {
   padding: 16px 20px;
   color: #343e5c;
@@ -673,6 +777,7 @@ body {
   text-transform: uppercase;
 }
 
+/* line 595, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .filter__head span {
   position: absolute;
   right: 18px;
@@ -684,6 +789,7 @@ body {
   font-weight: bold;
 }
 
+/* line 608, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .product {
   width: 870px;
   margin-left: auto;
@@ -691,6 +797,7 @@ body {
   flex-wrap: wrap;
 }
 
+/* line 613, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .product-item {
   width: 270px;
   height: 380px;
@@ -701,12 +808,14 @@ body {
   margin-bottom: 30px;
 }
 
+/* line 621, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .product-item__image {
   height: 100%;
   width: 100%;
   position: relative;
 }
 
+/* line 626, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .product-item-detail {
   position: absolute;
   top: 260px;
@@ -716,6 +825,7 @@ body {
   transform: translateX(-50%);
 }
 
+/* line 633, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .product-item-detail__name {
   font-size: 16px;
   font-weight: bold;
@@ -723,6 +833,7 @@ body {
   margin: 0 0 11px;
 }
 
+/* line 639, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .product-item-detail__color {
   font-size: 12px;
   font-weight: bold;
@@ -731,30 +842,36 @@ body {
   text-transform: uppercase;
 }
 
+/* line 646, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .product-item-detail__price {
   font-size: 14px;
   font-weight: bold;
   color: #343e5c;
 }
 
+/* line 652, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .product-item--long {
   width: 570px;
 }
 
+/* line 654, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .product-item--long .product-item {
   position: relative;
 }
 
+/* line 656, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .product-item--long .product-item__image {
   height: 305px;
 }
 
+/* line 659, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .product-item--long .product-item__image img {
   width: 100%;
   height: 100%;
   border-radius: 4px 4px 0 0;
 }
 
+/* line 665, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .product-item--long .product-item__price {
   position: absolute;
   top: 15px;
@@ -772,26 +889,20 @@ body {
   text-align: center;
 }
 
-.main .product-item--long .product-item-detail {
-  width: 100%;
-  top: 0;
-  left: 0;
-  transform: translate(0, 50%);
-  height: 75px;
-}
-
-.main .product-item--long .product-item-detail__name {
+/* line 683, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
+.main .product-item--long .product-item__name {
   position: absolute;
-  bottom: 45px;
+  bottom: 0;
   left: 25px;
   font-size: 16px;
   font-weight: bold;
   color: #222328;
 }
 
-.main .product-item--long .product-item-detail__color {
+/* line 691, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
+.main .product-item--long .product-item__color {
   position: absolute;
-  bottom: 20px;
+  bottom: 0;
   left: 25px;
   color: grey;
   font-size: 12px;
@@ -799,7 +910,8 @@ body {
   color: #b8bfd3;
 }
 
-.main .product-item--long .product-item-detail__buy {
+/* line 700, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
+.main .product-item--long .product-item__buy {
   position: absolute;
   width: 225px;
   height: 30px;
@@ -811,7 +923,8 @@ body {
   color: #343e5c;
 }
 
-.main .product-item--long .product-item-detail__buy button {
+/* line 710, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
+.main .product-item--long .product-item__buy button {
   width: 50%;
   background: transparent;
   border: none;
@@ -820,26 +933,32 @@ body {
   cursor: pointer;
 }
 
-.main .product-item--long .product-item-detail__buy button:focus {
+/* line 717, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
+.main .product-item--long .product-item__buy button:focus {
   outline: none;
 }
 
+/* line 727, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .product-item--other .product-item-detail {
   top: 40px;
 }
 
+/* line 729, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .product-item--other .product-item-detail__color {
   display: none;
 }
 
+/* line 732, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .product-item--other .product-item-detail__price {
   color: #6d6b68;
 }
 
+/* line 738, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .product-item--no-margin {
   margin-right: 0;
 }
 
+/* line 744, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .paging {
   width: 100%;
   height: 90px;
@@ -850,6 +969,7 @@ body {
   position: relative;
 }
 
+/* line 752, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .paging__arrow {
   position: absolute;
   top: 50%;
@@ -858,18 +978,22 @@ body {
   cursor: pointer;
 }
 
+/* line 758, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .paging__arrow--previous {
   left: 50px;
 }
 
+/* line 761, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .paging__arrow--next {
   right: 50px;
 }
 
+/* line 764, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .paging__arrow--hidden {
   display: none;
 }
 
+/* line 768, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .paging-number {
   position: absolute;
   top: 50%;
@@ -879,6 +1003,7 @@ body {
   display: flex;
 }
 
+/* line 775, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .paging-number__item {
   font-size: 14px;
   width: 48px;
@@ -892,15 +1017,18 @@ body {
   cursor: pointer;
 }
 
+/* line 786, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .paging-number__item:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* line 789, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .paging-number__item--active {
   color: #b9bed1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* line 797, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .best-sellers {
   width: 100%;
   height: 400px;
@@ -908,11 +1036,89 @@ body {
   background: #fff;
 }
 
+/* line 802, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .main .best-sellers h3 {
   color: #343e5c;
+  width: 100%;
+  font-size: 11px;
+  font-family: Montserrat-Medium;
+  text-align: center;
+  padding: 20px 0;
   text-transform: uppercase;
 }
 
+/* line 812, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
+.main .best-sellers-list {
+  width: 100%;
+  height: 345px;
+  list-style-type: none;
+  display: flex;
+  border-top: 1px solid #f0f2f7;
+}
+
+/* line 818, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
+.main .best-sellers-list-item {
+  width: 25%;
+  border-right: 1px solid #f0f2f7;
+  position: relative;
+}
+
+/* line 822, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
+.main .best-sellers-list-item img {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 828, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
+.main .best-sellers-list-item-detail {
+  position: absolute;
+  top: 230px;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 833, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
+.main .best-sellers-list-item-detail__name {
+  font-size: 16px;
+  color: #343e5c;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* line 839, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
+.main .best-sellers-list-item-detail__color {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #a1a8bd;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* line 846, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
+.main .best-sellers-list-item-detail__price {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 849, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
+.main .best-sellers-list-item-detail__price strike {
+  color: #b8bfd3;
+  margin-right: 25px;
+}
+
+/* line 853, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
+.main .best-sellers-list-item-detail__price span {
+  color: #343e5c;
+}
+
+/* line 858, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
+.main .best-sellers-list-item:last-child {
+  border-right: none;
+}
+
+/* line 865, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .feedback {
   width: 100%;
   height: 430px;
@@ -921,6 +1127,7 @@ body {
   padding: 65px 0 90px;
 }
 
+/* line 871, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .feedback__title {
   width: 100%;
   font-family: Montserrat-Black;
@@ -931,6 +1138,7 @@ body {
   margin: 0 0 8px;
 }
 
+/* line 880, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .feedback__title-sub {
   width: 100%;
   font-family: CrimsonText-Italic;
@@ -940,21 +1148,25 @@ body {
   color: #b9bed1;
 }
 
+/* line 888, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .feedback-box {
   width: 970px;
   margin: 50px auto 0;
   display: flex;
 }
 
+/* line 892, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .feedback-box-comment {
   width: 270px;
   margin: 0 30px;
 }
 
+/* line 895, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .feedback-box-comment-customer {
   position: relative;
 }
 
+/* line 897, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .feedback-box-comment-customer__name {
   position: absolute;
   font-size: 14px;
@@ -963,6 +1175,7 @@ body {
   left: 60px;
 }
 
+/* line 904, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .feedback-box-comment-customer__job {
   color: #b9bed1;
   font-size: 16px;
@@ -972,6 +1185,7 @@ body {
   top: 25px;
 }
 
+/* line 913, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .feedback-box-comment-customer img {
   position: absolute;
   top: 0;
@@ -982,12 +1196,14 @@ body {
   background: grey;
 }
 
+/* line 923, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .feedback-box-comment__content {
   font-size: 18.5px;
   font-family: CrimsonText-Roman;
   margin-top: 65px;
 }
 
+/* line 933, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .footer {
   width: 100%;
   height: 300px;
@@ -996,6 +1212,7 @@ body {
   position: relative;
 }
 
+/* line 939, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .footer__line {
   width: 1200px;
   height: 1px;
@@ -1007,11 +1224,13 @@ body {
   transform: translate(-50%, -50%);
 }
 
+/* line 949, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .footer-menu {
   height: 150px;
   position: relative;
 }
 
+/* line 952, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .footer-menu__logo {
   position: absolute;
   left: 0;
@@ -1019,6 +1238,7 @@ body {
   transform: translateY(-50%);
 }
 
+/* line 958, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .footer-menu-nav {
   position: absolute;
   top: 50%;
@@ -1028,10 +1248,12 @@ body {
   display: flex;
 }
 
+/* line 965, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .footer-menu-nav-item {
   margin: 0 15px;
 }
 
+/* line 967, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .footer-menu-nav-item a {
   color: #fff;
   font-size: 12px;
@@ -1040,6 +1262,7 @@ body {
   text-decoration: none;
 }
 
+/* line 976, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .footer-menu-social {
   position: absolute;
   right: 0;
@@ -1049,16 +1272,19 @@ body {
   display: flex;
 }
 
+/* line 983, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .footer-menu-social__item {
   margin-left: 24px;
 }
 
+/* line 988, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .footer-sub {
   width: 100%;
   height: 150px;
   position: relative;
 }
 
+/* line 992, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .footer-sub__quote {
   position: absolute;
   left: 0;
@@ -1071,6 +1297,7 @@ body {
   font-style: italic;
 }
 
+/* line 1004, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .footer-sub-nav {
   position: absolute;
   right: 0;
@@ -1080,10 +1307,12 @@ body {
   display: flex;
 }
 
+/* line 1011, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .footer-sub-nav__item {
   margin-left: 30px;
 }
 
+/* line 1013, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .footer-sub-nav__item a {
   color: #7f7f81;
   font-size: 11px;
@@ -1091,6 +1320,9 @@ body {
   text-decoration: none;
 }
 
+/* line 1023, D:/PROJECT/HTML/html-portland/Portland/scss/news-style.scss */
 .test {
   border: 1px dashed red;
 }
+
+/*# sourceMappingURL=../css/news-style.map */
