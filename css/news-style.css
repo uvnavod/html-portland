@@ -3,6 +3,16 @@
   src: url(../fonts/Montserrat-Regular.otf);
 }
 
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url(../fonts/Montserrat-Medium.otf);
+}
+
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url(../fonts/Montserrat-Black.otf);
+}
+
 body, div, img, p, ul, h1, h2, h3, span {
   padding: 0;
   margin: 0;

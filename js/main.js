@@ -90,3 +90,17 @@ function showPageArrow(n) {
     arrow_next.classList.remove("paging__arrow--hidden");
   }
 }
+
+function openMenu(element) {
+  id = element.id;
+  child = document.getElementById(id + '_child');
+  arrow = document.getElementById(id + '_arrow');
+  var active = "filter-menu-item__child--active";
+  if (child.classList.contains(active)) {
+    child.classList.remove(active);
+    arrow.classList = "fas fa-angle-right";
+  } else {
+    child.classList.add(active);
+    arrow.classList = "fas fa-angle-down";
+  }
+}
