@@ -1,4 +1,6 @@
 var slideIndex = 1;
+var slideTotal = document.getElementsByClassName("slide-list-item").length;
+
 showSlide(slideIndex);
 
 function plusSlide(n) {
@@ -6,14 +8,14 @@ function plusSlide(n) {
 }
 
 function changeSlide(n) {
-  var leng = 3;
-  var arrow_next = document.getElementById("arrow_next");
-  var arrow_previous = document.getElementById("arrow_previous");
-  if (n > leng) {
-    slideIndex = 1;
-  }
   if (n < 1) {
     slideIndex = leng;
+  } else {
+    if (n > slideTotal) {
+      slideIndex = 1;
+    } else {
+      slideIndex = n;
+    }
   }
   showDots(slideIndex);
   showArrow(slideIndex);
@@ -21,12 +23,14 @@ function changeSlide(n) {
 }
 
 function showArrow(n) {
+  var arrow_next = document.getElementById("arrow_next");
+  var arrow_previous = document.getElementById("arrow_previous");
   if (n == 1) {
     arrow_previous.classList.add("slide__arrow--hidden");
   } else {
     arrow_previous.classList.remove("slide__arrow--hidden");
   }
-  if (n == 3) {
+  if (n == slideTotal) {
     arrow_next.classList.add("slide__arrow--hidden");
   } else {
     arrow_next.classList.remove("slide__arrow--hidden");
@@ -37,9 +41,9 @@ function showDots(n) {
   var dots = document.getElementsByClassName("slide-dots__item");
   for (var i = 0; i < dots.length; i++) {
     if (n - 1 == i) {
-      dots[i].innerHTML = '<i class="fas fa-circle"></i>';
+      dots[i].innerHTML = '<img src="images/ic_dot_active.png" alt="">';
     } else {
-      dots[i].innerHTML = '<i class="far fa-circle"></i>';
+      dots[i].innerHTML = '<img src="images/ic_dot.png" alt="">';
     }
   }
 }

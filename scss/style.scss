@@ -83,6 +83,7 @@ body {
     &__item {
       a {
         margin: 15px;
+        font-size: 14px;
         text-decoration: none;
         color: $dark-blue;
         color: inherit;
@@ -121,12 +122,15 @@ body {
     align-items: center;
   }
   &__sign {
-    height: 28px;
-    width: 80px;
+    height: 32px;
+    width: 85px;
+    box-sizing: border-box;
     margin-left: 30px;
     border: 2px solid $grey-bg;
     border-radius: 14px;
-    font-size: 12px;
+    font-size: 11px;
+    font-weight: bold;
+    color: $dark-blue;
     background: transparent;
     cursor: pointer;
     &:focus {
@@ -137,11 +141,12 @@ body {
     }
   }
   &-cart {
-    font-size: 12px;
+    font-size: 11px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: $dark-blue;
+    cursor: pointer;
     &__text {
       margin-left: 7px;
       font-weight: bold;
@@ -209,7 +214,7 @@ body {
       }
     }
     &__input {
-      margin-left: 50px;
+      margin-left: 53px;
       img {
         cursor: pointer;
       }
@@ -273,17 +278,14 @@ body {
     z-index: 99;
     &__item {
       margin-right: 7px;
-      i {
-        color: #fff;
-        font-size: 8px;
-      }
+      cursor: pointer;
       &:last-child {
         margin-right: 0;
       }
     }
   } // -dots
   &-list {
-    height: 100%;
+    // height: 100%;
     &-item {
       display: none;
       // height: 100%;

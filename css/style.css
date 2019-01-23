@@ -90,12 +90,13 @@ body {
 /* line 84, D:/HTML/html-portland/Portland/scss/style.scss */
 .header-nav__item a {
   margin: 15px;
+  font-size: 14px;
   text-decoration: none;
   color: #343e5c;
   color: inherit;
 }
 
-/* line 92, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 93, D:/HTML/html-portland/Portland/scss/style.scss */
 .header-left {
   height: 100%;
   position: absolute;
@@ -106,7 +107,7 @@ body {
   align-items: center;
 }
 
-/* line 101, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 102, D:/HTML/html-portland/Portland/scss/style.scss */
 .header__menu {
   height: 100%;
   display: flex;
@@ -115,18 +116,18 @@ body {
   border-right: 1px solid #f0f2f7;
 }
 
-/* line 107, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 108, D:/HTML/html-portland/Portland/scss/style.scss */
 .header__menu img {
   cursor: pointer;
 }
 
-/* line 111, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 112, D:/HTML/html-portland/Portland/scss/style.scss */
 .header__logo {
   margin-left: 30px;
   cursor: pointer;
 }
 
-/* line 115, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 116, D:/HTML/html-portland/Portland/scss/style.scss */
 .header-right {
   position: absolute;
   right: 0;
@@ -136,44 +137,48 @@ body {
   align-items: center;
 }
 
-/* line 123, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 124, D:/HTML/html-portland/Portland/scss/style.scss */
 .header__sign {
-  height: 28px;
-  width: 80px;
+  height: 32px;
+  width: 85px;
+  box-sizing: border-box;
   margin-left: 30px;
   border: 2px solid #e3e8f0;
   border-radius: 14px;
-  font-size: 12px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #343e5c;
   background: transparent;
   cursor: pointer;
 }
 
-/* line 132, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 136, D:/HTML/html-portland/Portland/scss/style.scss */
 .header__sign:focus {
   outline: none;
 }
 
-/* line 135, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 139, D:/HTML/html-portland/Portland/scss/style.scss */
 .header__sign:active {
   background: #e3e8f0;
 }
 
-/* line 139, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 143, D:/HTML/html-portland/Portland/scss/style.scss */
 .header-cart {
-  font-size: 12px;
+  font-size: 11px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #343e5c;
+  cursor: pointer;
 }
 
-/* line 145, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 150, D:/HTML/html-portland/Portland/scss/style.scss */
 .header-cart__text {
   margin-left: 7px;
   font-weight: bold;
 }
 
-/* line 149, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 154, D:/HTML/html-portland/Portland/scss/style.scss */
 .header-cart__number {
   width: 24px;
   height: 24px;
@@ -188,12 +193,12 @@ body {
   background: #e3e8f0;
 }
 
-/* line 162, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 167, D:/HTML/html-portland/Portland/scss/style.scss */
 .header-cart i {
   cursor: pointer;
 }
 
-/* line 168, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 173, D:/HTML/html-portland/Portland/scss/style.scss */
 .sub-menu {
   height: 56px;
   display: flex;
@@ -201,7 +206,7 @@ body {
   align-items: center;
 }
 
-/* line 173, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 178, D:/HTML/html-portland/Portland/scss/style.scss */
 .sub-menu-links {
   list-style-type: none;
   display: flex;
@@ -209,18 +214,18 @@ body {
   justify-content: flex-start;
 }
 
-/* line 178, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 183, D:/HTML/html-portland/Portland/scss/style.scss */
 .sub-menu-links__item {
   margin-right: 30px;
   color: #b9bed1;
 }
 
-/* line 181, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 186, D:/HTML/html-portland/Portland/scss/style.scss */
 .sub-menu-links__item--active {
   color: #343e5c;
 }
 
-/* line 184, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 189, D:/HTML/html-portland/Portland/scss/style.scss */
 .sub-menu-links__item a {
   text-decoration: none;
   color: inherit;
@@ -228,12 +233,12 @@ body {
   text-transform: uppercase;
 }
 
-/* line 189, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 194, D:/HTML/html-portland/Portland/scss/style.scss */
 .sub-menu-links__item a:hover {
   color: #343e5c;
 }
 
-/* line 195, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 200, D:/HTML/html-portland/Portland/scss/style.scss */
 .sub-menu-search {
   position: absolute;
   right: 0;
@@ -242,7 +247,7 @@ body {
   justify-content: flex-end;
 }
 
-/* line 201, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 206, D:/HTML/html-portland/Portland/scss/style.scss */
 .sub-menu-search a {
   font-size: 11px;
   text-decoration: none;
@@ -251,22 +256,22 @@ body {
   text-transform: uppercase;
 }
 
-/* line 207, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 212, D:/HTML/html-portland/Portland/scss/style.scss */
 .sub-menu-search a:hover {
   color: #343e5c;
 }
 
-/* line 211, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 216, D:/HTML/html-portland/Portland/scss/style.scss */
 .sub-menu-search__input {
-  margin-left: 50px;
+  margin-left: 53px;
 }
 
-/* line 213, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 218, D:/HTML/html-portland/Portland/scss/style.scss */
 .sub-menu-search__input img {
   cursor: pointer;
 }
 
-/* line 216, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 221, D:/HTML/html-portland/Portland/scss/style.scss */
 .sub-menu-search__input input {
   width: 150px;
   margin-left: 8px;
@@ -277,24 +282,24 @@ body {
   font-weight: bold;
 }
 
-/* line 224, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 229, D:/HTML/html-portland/Portland/scss/style.scss */
 .sub-menu-search__input input::placeholder {
   color: #a1a8bd;
 }
 
-/* line 227, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 232, D:/HTML/html-portland/Portland/scss/style.scss */
 .sub-menu-search__input input:focus {
   outline: none;
 }
 
-/* line 235, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 240, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide {
   width: 100%;
   height: 500px;
   position: relative;
 }
 
-/* line 239, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 244, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide__arrow {
   width: 40px;
   height: 40px;
@@ -310,28 +315,28 @@ body {
   z-index: 99;
 }
 
-/* line 252, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 257, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide__arrow:hover {
   border: 1px solid #fff;
   transition-duration: 0.5s;
 }
 
-/* line 256, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 261, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide__arrow--next {
   right: 50px;
 }
 
-/* line 259, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 264, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide__arrow--previous {
   left: 50px;
 }
 
-/* line 262, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 267, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide__arrow--hidden {
   display: none;
 }
 
-/* line 266, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 271, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide-dots {
   position: absolute;
   bottom: 30px;
@@ -342,47 +347,37 @@ body {
   z-index: 99;
 }
 
-/* line 274, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 279, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide-dots__item {
   margin-right: 7px;
+  cursor: pointer;
 }
 
-/* line 276, D:/HTML/html-portland/Portland/scss/style.scss */
-.slide-dots__item i {
-  color: #fff;
-  font-size: 8px;
-}
-
-/* line 280, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 282, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide-dots__item:last-child {
   margin-right: 0;
 }
 
-/* line 285, D:/HTML/html-portland/Portland/scss/style.scss */
-.slide-list {
-  height: 100%;
-}
-
-/* line 287, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 289, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide-list-item {
   display: none;
 }
 
-/* line 290, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 292, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide-list-item__detail {
   position: absolute;
   bottom: 100px;
   left: 100px;
 }
 
-/* line 294, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 296, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide-list-item__detail h1 {
   font-family: Montserrat-Black;
   font-size: 42px;
   color: #fff;
 }
 
-/* line 299, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 301, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide-list-item__detail p {
   width: 470px;
   margin-top: 20px;
@@ -391,7 +386,7 @@ body {
   color: #fff;
 }
 
-/* line 307, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 309, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide-list-item__detail button {
   width: 165px;
   height: 42px;
@@ -407,22 +402,22 @@ body {
   cursor: pointer;
 }
 
-/* line 322, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 324, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide-list-item--active {
   display: block;
 }
 
-/* line 325, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 327, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide-list-item--bg-green {
   background: green;
 }
 
-/* line 328, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 330, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide-list-item--bg-grey {
   background: grey;
 }
 
-/* line 331, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 333, D:/HTML/html-portland/Portland/scss/style.scss */
 .slide-list-item img {
   position: absolute;
   top: 0;
@@ -431,14 +426,14 @@ body {
   height: 100%;
 }
 
-/* line 342, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 344, D:/HTML/html-portland/Portland/scss/style.scss */
 .main {
   width: 100%;
   padding: 50px 0;
   background: #e4e5e7;
 }
 
-/* line 346, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 348, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort {
   width: 100%;
   height: 55px;
@@ -452,7 +447,7 @@ body {
   margin-bottom: 30px;
 }
 
-/* line 357, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 359, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-box {
   width: 245px;
   height: 100%;
@@ -461,13 +456,13 @@ body {
   box-sizing: border-box;
 }
 
-/* line 363, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 365, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-box__text {
   margin-left: 20px;
   min-width: 70px;
 }
 
-/* line 367, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 369, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-box-label {
   position: relative;
   height: 100%;
@@ -475,7 +470,7 @@ body {
   margin-left: 20px;
 }
 
-/* line 372, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 374, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-box-label__select {
   width: 100%;
   height: 100%;
@@ -489,18 +484,18 @@ body {
   -o-appearance: none;
 }
 
-/* line 383, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 385, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-box-label__select option {
   padding: 10px;
   margin-top: 10px;
 }
 
-/* line 387, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 389, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-box-label__select:focus {
   outline: none;
 }
 
-/* line 391, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 393, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-box-label i {
   font-size: 14px;
   color: #c2c5ce;
@@ -510,24 +505,24 @@ body {
   transform: translateY(-50%);
 }
 
-/* line 400, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 402, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-box--left {
   border-right: 2px solid #f2f2f2;
 }
 
-/* line 403, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 405, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-box--right {
   width: 226px;
   border-radius: 0 4px 4px 0;
   border-left: 2px solid #f2f2f2;
 }
 
-/* line 407, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 409, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-box--right .sort-box-label {
   margin-left: 20px;
 }
 
-/* line 412, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 414, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-mid {
   width: 100%;
   height: 100%;
@@ -538,12 +533,12 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 420, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 422, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-mid__text {
   margin-right: 12px;
 }
 
-/* line 423, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 425, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-mid__input {
   height: 30px;
   border: 1px solid #e3e8f0;
@@ -556,28 +551,28 @@ body {
   box-sizing: border-box;
 }
 
-/* line 433, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 435, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-mid__input:focus {
   outline: none;
 }
 
-/* line 436, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 438, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-mid__input:placeholder {
   color: #b9bfd3;
   font-size: 13px;
 }
 
-/* line 440, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 442, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-mid__input--long {
   width: 160px;
 }
 
-/* line 444, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 446, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-mid-price {
   margin-left: 30px;
 }
 
-/* line 447, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 449, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .sort-mid-freeship {
   margin-left: 30px;
   display: flex;
@@ -586,13 +581,13 @@ body {
   font-size: 13px;
 }
 
-/* line 456, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 458, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter {
   width: 270px;
   border-radius: 4px;
 }
 
-/* line 459, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 461, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-menu {
   width: 270px;
   border-radius: 4px;
@@ -601,13 +596,13 @@ body {
   margin-bottom: 30px;
 }
 
-/* line 465, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 467, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-menu-item {
   min-height: 40px;
   height: 100%;
 }
 
-/* line 468, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 470, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-menu-item__parent {
   position: relative;
   height: 40px;
@@ -622,24 +617,24 @@ body {
   cursor: pointer;
 }
 
-/* line 480, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 482, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-menu-item__parent i {
   position: absolute;
   right: 20px;
 }
 
-/* line 485, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 487, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-menu-item__child {
   list-style-type: none;
   display: none;
 }
 
-/* line 488, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 490, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-menu-item__child--active {
   display: block;
 }
 
-/* line 491, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 493, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-menu-item__child li {
   height: 40px;
   background: #f0f2f7;
@@ -649,7 +644,7 @@ body {
   padding-left: 20px;
 }
 
-/* line 498, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 500, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-menu-item__child li a {
   text-decoration: none;
   color: #a1a8bd;
@@ -657,12 +652,12 @@ body {
   text-transform: uppercase;
 }
 
-/* line 507, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 509, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-menu-item:last-child .filter-menu-item__parent {
   border-bottom: none;
 }
 
-/* line 513, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 515, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-radio {
   width: 100%;
   border-radius: 4px 4px 0 0;
@@ -670,7 +665,7 @@ body {
   margin-top: 30px;
 }
 
-/* line 518, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 520, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-radio h3 {
   padding: 16px 20px;
   color: #343e5c;
@@ -678,32 +673,32 @@ body {
   font-size: 13px;
 }
 
-/* line 525, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 527, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-radio-group {
   padding: 10px 0 10px 20px;
   /* padding-left: 20px; */
   border-bottom: 1px solid #f0f2f7;
 }
 
-/* line 529, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 531, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-radio-group-item {
   position: relative;
   margin: 8px 0;
 }
 
-/* line 532, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 534, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-radio-group-item__label {
   margin-bottom: 15px;
 }
 
-/* line 534, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 536, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-radio-group-item__label span {
   font-size: 13px;
   color: #343e5c;
   font-weight: bold;
 }
 
-/* line 540, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 542, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-radio-group-item__quantity {
   color: #c6ccdc;
   font-size: 11px;
@@ -714,7 +709,7 @@ body {
   transform: translateY(-50%);
 }
 
-/* line 550, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 552, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-radio-group--horizontal {
   display: flex;
   height: 50px;
@@ -722,7 +717,7 @@ body {
   box-sizing: border-box;
 }
 
-/* line 555, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 557, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-radio-group--horizontal .filter-radio-group-item {
   width: 50%;
   height: 100%;
@@ -733,53 +728,53 @@ body {
   border-right: 1px solid #f0f2f7;
 }
 
-/* line 563, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 565, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-radio-group--horizontal .filter-radio-group-item:last-child {
   border-right: none;
 }
 
-/* line 566, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 568, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-radio-group--horizontal .filter-radio-group-item__label {
   margin: 0;
 }
 
-/* line 573, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 575, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-check {
   width: 100%;
   border-radius: 0 0 4px 4px;
   background: #fff;
 }
 
-/* line 577, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 579, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-check-group {
   padding: 10px 0 10px 20px;
   border-bottom: 1px solid #f0f2f7;
 }
 
-/* line 580, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 582, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-check-group-item {
   position: relative;
   margin: 16px 0;
 }
 
-/* line 583, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 585, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-check-group-item span {
   color: #343e5c;
 }
 
-/* line 586, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 588, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-check-group-item__label {
   margin-bottom: 15px;
 }
 
-/* line 588, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 590, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-check-group-item__label span {
   font-size: 13px;
   color: #343e5c;
   font-weight: bold;
 }
 
-/* line 594, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 596, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-check-group-item__quantity {
   color: #c6ccdc;
   font-size: 11px;
@@ -790,24 +785,24 @@ body {
   transform: translateY(-50%);
 }
 
-/* line 605, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 607, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-check--brand {
   border-radius: 0 0 4px 4px;
   margin-bottom: 30px;
 }
 
-/* line 609, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 611, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter-check--condition {
   border-radius: 4px;
 }
 
-/* line 613, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 615, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter__head {
   position: relative;
   border-bottom: 1px solid #f0f2f7;
 }
 
-/* line 616, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 618, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter__head h3 {
   padding: 16px 20px;
   color: #343e5c;
@@ -816,7 +811,7 @@ body {
   text-transform: uppercase;
 }
 
-/* line 623, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 625, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .filter__head span {
   position: absolute;
   right: 18px;
@@ -828,7 +823,7 @@ body {
   font-weight: bold;
 }
 
-/* line 636, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 638, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product {
   width: 870px;
   margin-left: auto;
@@ -836,7 +831,7 @@ body {
   flex-wrap: wrap;
 }
 
-/* line 641, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 643, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item {
   width: 270px;
   height: 380px;
@@ -848,19 +843,19 @@ body {
   cursor: pointer;
 }
 
-/* line 650, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 652, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* line 653, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 655, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item__image {
   height: 100%;
   width: 100%;
   position: relative;
 }
 
-/* line 658, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 660, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item-detail {
   position: absolute;
   top: 260px;
@@ -870,7 +865,7 @@ body {
   transform: translateX(-50%);
 }
 
-/* line 665, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 667, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item-detail__name {
   font-size: 16px;
   font-weight: bold;
@@ -878,7 +873,7 @@ body {
   margin: 0 0 11px;
 }
 
-/* line 671, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 673, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item-detail__color {
   font-size: 12px;
   font-weight: bold;
@@ -887,36 +882,36 @@ body {
   text-transform: uppercase;
 }
 
-/* line 678, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 680, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item-detail__price {
   font-size: 14px;
   font-weight: bold;
   color: #343e5c;
 }
 
-/* line 684, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 686, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item--long {
   width: 570px;
 }
 
-/* line 686, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 688, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item--long .product-item {
   position: relative;
 }
 
-/* line 688, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 690, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item--long .product-item__image {
   height: 305px;
 }
 
-/* line 691, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 693, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item--long .product-item__image img {
   width: 100%;
   height: 100%;
   border-radius: 4px 4px 0 0;
 }
 
-/* line 697, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 699, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item--long .product-item__price {
   position: absolute;
   top: 15px;
@@ -934,7 +929,7 @@ body {
   text-align: center;
 }
 
-/* line 715, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 717, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item--long .product-item__name {
   position: absolute;
   bottom: 45px;
@@ -944,7 +939,7 @@ body {
   color: #222328;
 }
 
-/* line 723, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 725, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item--long .product-item__color {
   position: absolute;
   bottom: 20px;
@@ -955,7 +950,7 @@ body {
   color: #b8bfd3;
 }
 
-/* line 732, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 734, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item--long .product-item__buy {
   position: absolute;
   width: 225px;
@@ -968,7 +963,7 @@ body {
   color: #343e5c;
 }
 
-/* line 742, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 744, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item--long .product-item__buy button {
   width: 50%;
   background: transparent;
@@ -979,42 +974,42 @@ body {
   cursor: pointer;
 }
 
-/* line 750, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 752, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item--long .product-item__buy button:focus {
   outline: none;
 }
 
-/* line 753, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 755, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item--long .product-item__buy button:active {
   background: #f0f2f7;
 }
 
-/* line 756, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 758, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item--long .product-item__buy button:last-child {
   border-right: none;
 }
 
-/* line 766, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 768, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item--other .product-item-detail {
   top: 40px;
 }
 
-/* line 768, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 770, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item--other .product-item-detail__color {
   display: none;
 }
 
-/* line 771, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 773, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item--other .product-item-detail__price {
   color: #6d6b68;
 }
 
-/* line 777, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 779, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .product-item--no-margin {
   margin-right: 0;
 }
 
-/* line 783, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 785, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .paging {
   width: 100%;
   height: 90px;
@@ -1025,7 +1020,7 @@ body {
   position: relative;
 }
 
-/* line 791, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 793, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .paging__arrow {
   position: absolute;
   top: 50%;
@@ -1034,22 +1029,22 @@ body {
   cursor: pointer;
 }
 
-/* line 797, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 799, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .paging__arrow--previous {
   left: 50px;
 }
 
-/* line 800, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 802, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .paging__arrow--next {
   right: 50px;
 }
 
-/* line 803, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 805, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .paging__arrow--hidden {
   display: none;
 }
 
-/* line 807, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 809, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .paging-number {
   position: absolute;
   top: 50%;
@@ -1059,7 +1054,7 @@ body {
   display: flex;
 }
 
-/* line 814, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 816, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .paging-number__item {
   font-size: 14px;
   width: 48px;
@@ -1073,18 +1068,18 @@ body {
   cursor: pointer;
 }
 
-/* line 825, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 827, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .paging-number__item:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* line 828, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 830, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .paging-number__item--active {
   color: #b9bed1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* line 836, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 838, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .best-sellers {
   width: 100%;
   height: 400px;
@@ -1092,7 +1087,7 @@ body {
   background: #fff;
 }
 
-/* line 841, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 843, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .best-sellers h3 {
   color: #343e5c;
   width: 100%;
@@ -1103,7 +1098,7 @@ body {
   text-transform: uppercase;
 }
 
-/* line 851, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 853, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .best-sellers-list {
   width: 100%;
   height: 345px;
@@ -1112,14 +1107,14 @@ body {
   border-top: 1px solid #f0f2f7;
 }
 
-/* line 857, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 859, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .best-sellers-list-item {
   width: 25%;
   border-right: 1px solid #f0f2f7;
   position: relative;
 }
 
-/* line 861, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 863, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .best-sellers-list-item img {
   position: absolute;
   top: 33%;
@@ -1127,7 +1122,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-/* line 867, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 869, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .best-sellers-list-item-detail {
   position: absolute;
   top: 230px;
@@ -1135,7 +1130,7 @@ body {
   text-align: center;
 }
 
-/* line 872, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 874, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .best-sellers-list-item-detail__name {
   font-size: 16px;
   color: #343e5c;
@@ -1143,7 +1138,7 @@ body {
   margin-bottom: 10px;
 }
 
-/* line 878, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 880, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .best-sellers-list-item-detail__color {
   font-size: 11px;
   text-transform: uppercase;
@@ -1152,29 +1147,29 @@ body {
   font-weight: bold;
 }
 
-/* line 885, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 887, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .best-sellers-list-item-detail__price {
   font-size: 14px;
   font-weight: bold;
 }
 
-/* line 888, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 890, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .best-sellers-list-item-detail__price strike {
   color: #b8bfd3;
   margin-right: 15px;
 }
 
-/* line 892, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 894, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .best-sellers-list-item-detail__price span {
   color: #343e5c;
 }
 
-/* line 897, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 899, D:/HTML/html-portland/Portland/scss/style.scss */
 .main .best-sellers-list-item:last-child {
   border-right: none;
 }
 
-/* line 904, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 906, D:/HTML/html-portland/Portland/scss/style.scss */
 .feedback {
   width: 100%;
   height: 430px;
@@ -1183,7 +1178,7 @@ body {
   padding: 65px 0 90px;
 }
 
-/* line 910, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 912, D:/HTML/html-portland/Portland/scss/style.scss */
 .feedback__title {
   width: 100%;
   font-family: Montserrat-Black;
@@ -1194,7 +1189,7 @@ body {
   margin: 0 0 8px;
 }
 
-/* line 919, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 921, D:/HTML/html-portland/Portland/scss/style.scss */
 .feedback__title-sub {
   width: 100%;
   font-family: CrimsonText-Italic;
@@ -1204,25 +1199,25 @@ body {
   color: #b9bed1;
 }
 
-/* line 927, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 929, D:/HTML/html-portland/Portland/scss/style.scss */
 .feedback-box {
   width: 970px;
   margin: 50px auto 0;
   display: flex;
 }
 
-/* line 931, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 933, D:/HTML/html-portland/Portland/scss/style.scss */
 .feedback-box-comment {
   width: 270px;
   margin: 0 30px;
 }
 
-/* line 934, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 936, D:/HTML/html-portland/Portland/scss/style.scss */
 .feedback-box-comment-customer {
   position: relative;
 }
 
-/* line 936, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 938, D:/HTML/html-portland/Portland/scss/style.scss */
 .feedback-box-comment-customer__name {
   position: absolute;
   font-size: 14px;
@@ -1231,7 +1226,7 @@ body {
   left: 60px;
 }
 
-/* line 943, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 945, D:/HTML/html-portland/Portland/scss/style.scss */
 .feedback-box-comment-customer__job {
   color: #b9bed1;
   font-size: 16px;
@@ -1241,7 +1236,7 @@ body {
   top: 25px;
 }
 
-/* line 952, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 954, D:/HTML/html-portland/Portland/scss/style.scss */
 .feedback-box-comment-customer img {
   position: absolute;
   top: 0;
@@ -1252,14 +1247,14 @@ body {
   background: grey;
 }
 
-/* line 962, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 964, D:/HTML/html-portland/Portland/scss/style.scss */
 .feedback-box-comment__content {
   font-size: 18.5px;
   font-family: CrimsonText-Roman;
   margin-top: 65px;
 }
 
-/* line 972, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 974, D:/HTML/html-portland/Portland/scss/style.scss */
 .footer {
   width: 100%;
   height: 300px;
@@ -1268,7 +1263,7 @@ body {
   position: relative;
 }
 
-/* line 978, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 980, D:/HTML/html-portland/Portland/scss/style.scss */
 .footer__line {
   width: 1200px;
   height: 1px;
@@ -1280,13 +1275,13 @@ body {
   transform: translate(-50%, -50%);
 }
 
-/* line 988, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 990, D:/HTML/html-portland/Portland/scss/style.scss */
 .footer-menu {
   height: 150px;
   position: relative;
 }
 
-/* line 991, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 993, D:/HTML/html-portland/Portland/scss/style.scss */
 .footer-menu__logo {
   position: absolute;
   left: 0;
@@ -1294,7 +1289,7 @@ body {
   transform: translateY(-50%);
 }
 
-/* line 997, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 999, D:/HTML/html-portland/Portland/scss/style.scss */
 .footer-menu-nav {
   position: absolute;
   top: 50%;
@@ -1304,12 +1299,12 @@ body {
   display: flex;
 }
 
-/* line 1004, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 1006, D:/HTML/html-portland/Portland/scss/style.scss */
 .footer-menu-nav-item {
   margin: 0 15px;
 }
 
-/* line 1006, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 1008, D:/HTML/html-portland/Portland/scss/style.scss */
 .footer-menu-nav-item a {
   color: #fff;
   font-size: 12px;
@@ -1318,7 +1313,7 @@ body {
   text-decoration: none;
 }
 
-/* line 1015, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 1017, D:/HTML/html-portland/Portland/scss/style.scss */
 .footer-menu-social {
   position: absolute;
   right: 0;
@@ -1328,19 +1323,19 @@ body {
   display: flex;
 }
 
-/* line 1022, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 1024, D:/HTML/html-portland/Portland/scss/style.scss */
 .footer-menu-social__item {
   margin-left: 24px;
 }
 
-/* line 1027, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 1029, D:/HTML/html-portland/Portland/scss/style.scss */
 .footer-sub {
   width: 100%;
   height: 150px;
   position: relative;
 }
 
-/* line 1031, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 1033, D:/HTML/html-portland/Portland/scss/style.scss */
 .footer-sub__quote {
   position: absolute;
   left: 0;
@@ -1353,7 +1348,7 @@ body {
   font-style: italic;
 }
 
-/* line 1043, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 1045, D:/HTML/html-portland/Portland/scss/style.scss */
 .footer-sub-nav {
   position: absolute;
   right: 0;
@@ -1363,12 +1358,12 @@ body {
   display: flex;
 }
 
-/* line 1050, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 1052, D:/HTML/html-portland/Portland/scss/style.scss */
 .footer-sub-nav__item {
   margin-left: 30px;
 }
 
-/* line 1052, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 1054, D:/HTML/html-portland/Portland/scss/style.scss */
 .footer-sub-nav__item a {
   color: #7f7f81;
   font-size: 11px;
@@ -1376,7 +1371,7 @@ body {
   text-decoration: none;
 }
 
-/* line 1062, D:/HTML/html-portland/Portland/scss/style.scss */
+/* line 1064, D:/HTML/html-portland/Portland/scss/style.scss */
 .test {
   border: 1px dashed red;
 }
