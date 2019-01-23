@@ -166,6 +166,9 @@
           <label class="sort-box-label">
             <select class="sort-box-label__select test">
               <option value="">USA</option>
+              <option value="">Canada</option>
+              <option value="">China</option>
+              <option value="">Viet Nam</option>
             </select>
             <i class="fas fa-angle-down"></i>
           </label>
@@ -238,14 +241,16 @@
           </div>
           <div class="filter-radio-group">
             <div class="filter-radio-group-item">
-              <label class="filter-radio-group-item__label radio-container">In Store
+              <label class="filter-radio-group-item__label radio-container">
+                <span>In Store</span>
                 <input type="radio" name="available-radio">
                 <span class="radio-mark"></span>
               </label>
               <span class="filter-radio-group-item__quantity">45</span>
             </div><!-- .filter-radio-group-item -->
             <div class="filter-radio-group-item">
-              <label class="filter-radio-group-item__label radio-container">In Online-Shop
+              <label class="filter-radio-group-item__label radio-container">
+                <span>In Online-Shop</span>
                 <input type="radio" name="available-radio">
                 <span class="radio-mark"></span>
               </label>
@@ -261,28 +266,32 @@
           </div>
           <div class="filter-check-group">
             <div class="filter-check-group-item">
-              <label class="filter-check-group-item wrapper">Apple
+              <label class="filter-check-group-item wrapper">
+                <span>Apple</span>
                 <input type="checkbox" checked="checked">
                 <span class="checkmark checkmark--square"></span>
               </label>
               <span class="filter-check-group-item__quantity">32</span>
             </div><!-- .filter-available-group-item -->
             <div class="filter-check-group-item">
-              <label class="filter-check-group-item wrapper">JBL
+              <label class="filter-check-group-item wrapper">
+                <span>JBL</span>
                 <input type="checkbox">
                 <span class="checkmark checkmark--square"></span>
               </label>
               <span class="filter-check-group-item__quantity">14</span>
             </div><!-- .filter-brand-group-item -->
             <div class="filter-check-group-item">
-              <label class="filter-check-group-item wrapper">Bose
+              <label class="filter-check-group-item wrapper">
+                <span>Bose</span>
                 <input type="checkbox">
                 <span class="checkmark checkmark--square"></span>
               </label>
               <span class="filter-check-group-item__quantity">3</span>
             </div><!-- .filter-check-group-item -->
             <div class="filter-check-group-item">
-              <label class="filter-check-group-item wrapper">Nest
+              <label class="filter-check-group-item wrapper">
+                <span>Nest</span>
                 <input type="checkbox">
                 <span class="checkmark checkmark--square"></span>
               </label>
@@ -298,38 +307,66 @@
           </div>
           <div class="filter-check-group">
             <div class="filter-check-group-item">
-              <label class="filter-check-group-item wrapper">New
+              <label class="filter-check-group-item wrapper">
+                <span>New</span>
                 <input type="checkbox" checked="checked">
                 <span class="checkmark checkmark--square"></span>
               </label>
             </div><!-- .filter-available-group-item -->
             <div class="filter-check-group-item">
-              <label class="filter-check-group-item wrapper">Manufacturer Refurbished
+              <label class="filter-check-group-item wrapper">
+                <span>Manufacturer Refurbished</span>
                 <input type="checkbox">
                 <span class="checkmark checkmark--square"></span>
               </label>
             </div><!-- .filter-brand-group-item -->
             <div class="filter-check-group-item">
-              <label class="filter-check-group-item wrapper">Seller Refurbished
+              <label class="filter-check-group-item wrapper">
+                <span>Seller Refurbished</span>
                 <input type="checkbox">
                 <span class="checkmark checkmark--square"></span>
               </label>
             </div><!-- .filter-check-group-item -->
             <div class="filter-check-group-item">
-              <label class="filter-check-group-item wrapper">Used
+              <label class="filter-check-group-item wrapper">
+                <span>Used</span>
                 <input type="checkbox">
                 <span class="checkmark checkmark--square"></span>
               </label>
             </div><!-- .filter-check-group-item -->
             <div class="filter-check-group-item">
-              <label class="filter-check-group-item wrapper">For Parts or not Working
+              <label class="filter-check-group-item wrapper">
+                <span>For Parts or not Working</span>
                 <input type="checkbox">
                 <span class="checkmark checkmark--square"></span>
               </label>
             </div><!-- .filter-check-group-item -->
           </div><!-- .filter-check-group -->
         </div><!-- .filter-check -->
+
+        <div class="filter-radio">
+          <div class="filter__head">
+            <h3>DELEVERY OPTION</h3>
+          </div>
+          <div class="filter-radio-group filter-radio-group--horizontal">
+            <div class="filter-radio-group-item">
+              <label class="filter-radio-group-item__label radio-container">
+                <span>Free</span>
+                <input type="radio" name="available-radio">
+                <span class="radio-mark"></span>
+              </label>
+            </div><!-- .filter-radio-group-item -->
+            <div class="filter-radio-group-item">
+              <label class="filter-radio-group-item__label radio-container">
+                <span>$4.99</span>
+                <input type="radio" name="available-radio">
+                <span class="radio-mark"></span>
+              </label>
+            </div><!-- .filter-radio-group-item -->
+          </div><!-- .filter-radio-group -->
+        </div><!-- .filter-radio -->
       </div><!-- .filter -->
+
       <div class="product">
         <div class="product-item">
           <div class="product-item__image">
@@ -338,7 +375,7 @@
           <div class="product-item-detail">
             <h3 class="product-item-detail__name">Apple TV 32Gb</h3>
             <p class="product-item-detail__color">BLACK</p>
-            <span class="product-item-detail__price">49.99$</span>
+            <span class="product-item-detail__price">$49.99</span>
           </div>
         </div><!-- .product-item -->
 
@@ -349,7 +386,7 @@
           <div class="product-item-detail">
             <h3 class="product-item-detail__name">Pebble Time</h3>
             <p class="product-item-detail__color">RED</p>
-            <span class="product-item-detail__price">29.99$</span>
+            <span class="product-item-detail__price">$29.99</span>
           </div>
         </div><!-- .product-item -->
 
@@ -360,7 +397,7 @@
           <div class="product-item-detail">
             <h3 class="product-item-detail__name">Zendure 4-Port USB</h3>
             <p class="product-item-detail__color">WHITE</p>
-            <span class="product-item-detail__price">99.99$</span>
+            <span class="product-item-detail__price">$99.99</span>
           </div>
         </div><!-- .product-item -->
 
@@ -371,14 +408,14 @@
           <div class="product-item-detail">
             <h3 class="product-item-detail__name">Withings Smart Body Analyzer ws-50</h3>
             <p class="product-item-detail__color">BLACK</p>
-            <span class="product-item-detail__price">39.99$</span>
+            <span class="product-item-detail__price">$39.99</span>
           </div>
         </div><!-- .product-item -->
 
         <div class="product-item product-item--long product-item--no-margin">
           <div class="product-item__image">
             <img src="images/img_long_thumb.png" alt="">
-            <span class="product-item__price">39.99$</span>
+            <span class="product-item__price">$39.99</span>
           </div>
           <!-- <div class="product-item-detail"> -->
             <p class="product-item__name">JBL Change 2+</p>
@@ -397,7 +434,7 @@
           <div class="product-item-detail">
             <h3 class="product-item-detail__name">Ollo Clip New</h3>
             <p class="product-item-detail__color">SLIVER</p>
-            <span class="product-item-detail__price">29.99$</span>
+            <span class="product-item-detail__price">$29.99</span>
           </div>
         </div><!-- .product-item -->
 
@@ -408,7 +445,7 @@
           <div class="product-item-detail">
             <h3 class="product-item-detail__name">Fitbit Charge HR Heart Rate and Activity Tracker</h3>
             <p class="product-item-detail__color">BLACK</p>
-            <span class="product-item-detail__price">19.99$</span>
+            <span class="product-item-detail__price">$19.99</span>
           </div>
         </div><!-- .product-item -->
 
@@ -419,7 +456,7 @@
           <div class="product-item-detail">
             <h3 class="product-item-detail__name">Apple Watch Sport 38mm Silver Aluminum Case</h3>
             <p class="product-item-detail__color">WHITE</p>
-            <span class="product-item-detail__price">49.99$</span>
+            <span class="product-item-detail__price">$49.99</span>
           </div>
         </div><!-- .product-item -->
 
@@ -430,7 +467,7 @@
           <div class="product-item-detail">
             <h3 class="product-item-detail__name">Bose SoundLink On-Ear Headphones</h3>
             <p class="product-item-detail__color">WHITE</p>
-            <span class="product-item-detail__price">119.99$</span>
+            <span class="product-item-detail__price">$119.99</span>
           </div>
         </div><!-- .product-item -->
 
@@ -441,7 +478,7 @@
           <div class="product-item-detail">
             <h3 class="product-item-detail__name">Sonos Play-1 Wireless HiFi System</h3>
             <p class="product-item-detail__color">BLACK</p>
-            <span class="product-item-detail__price">99.99$</span>
+            <span class="product-item-detail__price">$99.99</span>
           </div>
         </div><!-- .product-item -->
 
@@ -452,7 +489,7 @@
           <div class="product-item-detail">
             <h3 class="product-item-detail__name">Nest Learning Thermostat, 3rd Generation</h3>
             <p class="product-item-detail__color">BLACK</p>
-            <span class="product-item-detail__price">49.99$</span>
+            <span class="product-item-detail__price">$49.99</span>
           </div>
         </div><!-- .product-item -->
 
@@ -486,46 +523,46 @@
               <h4 class="best-sellers-list-item-detail__name">Beanie</h4>
               <p class="best-sellers-list-item-detail__color">GREEN</p>
               <div class="best-sellers-list-item-detail__price">
-                <strike>$39.99</strike>
-                <span>$29.99</span>
+                <strike>£39.99</strike>
+                <span>£29.99</span>
               </div><!-- .best-sellers-list-item-detail__price -->
             </div><!-- .best-sellers-list-item-detail -->
-          </li>
+          </li><!-- .best-sellers-list-item -->
           <li class="best-sellers-list-item">
             <img src="images/img_best_2.png" alt="best">
             <div class="best-sellers-list-item-detail">
               <h4 class="best-sellers-list-item-detail__name">T-Shirt With a Print</h4>
               <p class="best-sellers-list-item-detail__color">DARK BLUE</p>
               <div class="best-sellers-list-item-detail__price">
-                <strike>$29.99</strike>
-                <span>$19.99</span>
+                <strike>£29.99</strike>
+                <span>£19.99</span>
               </div><!-- .best-sellers-list-item-detail__price -->
             </div><!-- .best-sellers-list-item-detail -->
-          </li>
+          </li><!-- .best-sellers-list-item -->
           <li class="best-sellers-list-item">
             <img src="images/img_best_3.png" alt="best">
             <div class="best-sellers-list-item-detail">
               <h4 class="best-sellers-list-item-detail__name">Pile-Lined Hooded Jacket</h4>
               <p class="best-sellers-list-item-detail__color">DARK BLUE</p>
               <div class="best-sellers-list-item-detail__price">
-                <strike>$49.99</strike>
-                <span>$39.99</span>
+                <strike>£49.99</strike>
+                <span>£39.99</span>
               </div><!-- .best-sellers-list-item-detail__price -->
             </div><!-- .best-sellers-list-item-detail -->
-          </li>
+          </li><!-- .best-sellers-list-item -->
           <li class="best-sellers-list-item">
             <img src="images/img_best_4.png" alt="best">
             <div class="best-sellers-list-item-detail">
               <h4 class="best-sellers-list-item-detail__name">Trainer</h4>
               <p class="best-sellers-list-item-detail__color">SPACE GREY</p>
               <div class="best-sellers-list-item-detail__price">
-                <strike>$39.99</strike>
-                <span>$29.99</span>
+                <strike>£39.99</strike>
+                <span>£29.99</span>
               </div><!-- .best-sellers-list-item-detail__price -->
             </div><!-- .best-sellers-list-item-detail -->
-          </li>
-        </ul>
-      </div>
+          </li><!-- .best-sellers-list-item -->
+        </ul><!-- .best-sellers-list -->
+      </div><!-- .best-sellers -->
     </div><!-- .container -->
   </div><!-- .main -->
 
