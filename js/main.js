@@ -1,5 +1,5 @@
 var slideIndex = 1;
-// showSlide(slideIndex);
+showSlide(slideIndex);
 
 function plusSlide(n) {
   changeSlide(slideIndex += n);
@@ -50,7 +50,7 @@ function showSlide(n) {
     slides[i].classList.remove("slide-list-item--active");
   }
   slides[n-1].classList.add("slide-list-item--active");
-}
+ }
 
 var pageIndex = 1;
 
