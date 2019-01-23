@@ -146,16 +146,17 @@
         <div class="sort-mid">
           <div class="sort-mid-keyword">
             <span class="sort-mid__text">KEYWORDS</span>
-            <input class="sort-mid__input sort-mid__input--long" type="text" placeholder="TABLET">
+            <input class="sort-mid__input sort-mid__input--long" type="text" placeholder="Tablet">
           </div>
           <div class="sort-mid-price">
             <span class="sort-mid__text">PRICE</span>
-            <input class="sort-mid__input" type="number" placeholder="">
+            <input class="sort-mid__input" type="number" placeholder="" value="10">
             <span> - </span>
-            <input class="sort-mid__input" type="number" placeholder="">
+            <input class="sort-mid__input" type="number" placeholder="" value="1000">
           </div>
           <div class="sort-mid-freeship">
-            <label class="wrapper">Free Shipping
+            <label class="wrapper">
+              <span>Free Shipping</span>
               <input type="checkbox" checked="checked">
               <span class="checkmark"></span>
             </label>
@@ -235,11 +236,11 @@
           </li><!-- .filter-menu-item -->
         </ul><!-- .filter-menu -->
 
-        <div class="filter-radio">
+        <div class="filter-radio filter-radio--radius-top">
           <div class="filter__head">
             <h3>AVAILABLE</h3>
           </div>
-          <div class="filter-radio-group">
+          <div class="filter-radio-group filter-radio-group--border-bottom">
             <div class="filter-radio-group-item">
               <label class="filter-radio-group-item__label radio-container">
                 <span>In Store</span>
@@ -259,16 +260,16 @@
           </div><!-- .filter-radio-group -->
         </div><!-- .filter-radio -->
 
-        <div class="filter-check filter-check--brand">
+        <div class="filter-check filter-check--radius-bottom">
           <div class="filter__head">
             <h3>BRAND</h3>
-            <span>ALL</span>
+            <span id="filter-check-group-brand" onclick="check_all(this);">ALL</span>
           </div>
           <div class="filter-check-group">
             <div class="filter-check-group-item">
-              <label class="filter-check-group-item wrapper">
+              <label class="filter-check-group-item__label wrapper">
                 <span>Apple</span>
-                <input type="checkbox" checked="checked">
+                <input class="filter-check-group-brand" type="checkbox" checked="checked">
                 <span class="checkmark checkmark--square"></span>
               </label>
               <span class="filter-check-group-item__quantity">32</span>
@@ -276,7 +277,7 @@
             <div class="filter-check-group-item">
               <label class="filter-check-group-item wrapper">
                 <span>JBL</span>
-                <input type="checkbox">
+                <input class="filter-check-group-brand" type="checkbox">
                 <span class="checkmark checkmark--square"></span>
               </label>
               <span class="filter-check-group-item__quantity">14</span>
@@ -284,7 +285,7 @@
             <div class="filter-check-group-item">
               <label class="filter-check-group-item wrapper">
                 <span>Bose</span>
-                <input type="checkbox">
+                <input class="filter-check-group-brand" type="checkbox">
                 <span class="checkmark checkmark--square"></span>
               </label>
               <span class="filter-check-group-item__quantity">3</span>
@@ -292,7 +293,7 @@
             <div class="filter-check-group-item">
               <label class="filter-check-group-item wrapper">
                 <span>Nest</span>
-                <input type="checkbox">
+                <input class="filter-check-group-brand" type="checkbox">
                 <span class="checkmark checkmark--square"></span>
               </label>
               <span class="filter-check-group-item__quantity">5</span>
@@ -300,51 +301,51 @@
           </div><!-- .filter-check-group -->
         </div><!-- .filter-check -->
 
-        <div class="filter-check filter-check--condition">
+        <div class="filter-check filter-check">
           <div class="filter__head">
             <h3>CONDITION</h3>
-            <span>ALL</span>
+            <span id="filter-check-group-condition" onclick="check_all(this);">SEE ALL</span>
           </div>
           <div class="filter-check-group">
             <div class="filter-check-group-item">
               <label class="filter-check-group-item wrapper">
                 <span>New</span>
-                <input type="checkbox" checked="checked">
+                <input class="filter-check-group-condition" type="checkbox" checked="checked">
                 <span class="checkmark checkmark--square"></span>
               </label>
             </div><!-- .filter-available-group-item -->
             <div class="filter-check-group-item">
               <label class="filter-check-group-item wrapper">
                 <span>Manufacturer Refurbished</span>
-                <input type="checkbox">
+                <input class="filter-check-group-condition" type="checkbox">
                 <span class="checkmark checkmark--square"></span>
               </label>
             </div><!-- .filter-brand-group-item -->
             <div class="filter-check-group-item">
               <label class="filter-check-group-item wrapper">
                 <span>Seller Refurbished</span>
-                <input type="checkbox">
+                <input class="filter-check-group-condition" type="checkbox">
                 <span class="checkmark checkmark--square"></span>
               </label>
             </div><!-- .filter-check-group-item -->
             <div class="filter-check-group-item">
               <label class="filter-check-group-item wrapper">
                 <span>Used</span>
-                <input type="checkbox">
+                <input class="filter-check-group-condition" type="checkbox" checked="checked">
                 <span class="checkmark checkmark--square"></span>
               </label>
             </div><!-- .filter-check-group-item -->
             <div class="filter-check-group-item">
               <label class="filter-check-group-item wrapper">
                 <span>For Parts or not Working</span>
-                <input type="checkbox">
+                <input class="filter-check-group-condition" type="checkbox">
                 <span class="checkmark checkmark--square"></span>
               </label>
             </div><!-- .filter-check-group-item -->
           </div><!-- .filter-check-group -->
         </div><!-- .filter-check -->
 
-        <div class="filter-radio">
+        <div class="filter-radio filter-radio">
           <div class="filter__head">
             <h3>DELEVERY OPTION</h3>
           </div>
@@ -352,7 +353,7 @@
             <div class="filter-radio-group-item">
               <label class="filter-radio-group-item__label radio-container">
                 <span>Free</span>
-                <input type="radio" name="available-radio">
+                <input type="radio" name="available-radio" checked="checked">
                 <span class="radio-mark"></span>
               </label>
             </div><!-- .filter-radio-group-item -->

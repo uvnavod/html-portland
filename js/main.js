@@ -108,3 +108,10 @@ function openMenu(element) {
     arrow.classList = "fas fa-angle-down";
   }
 }
+
+function check_all(element) {
+  listCheckbox = document.getElementsByClassName(element.id);
+  for (var i = 0; i < listCheckbox.length; i++) {
+    listCheckbox[i].checked = true;
+  }
+}
